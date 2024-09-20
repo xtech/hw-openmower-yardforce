@@ -8055,7 +8055,7 @@
 			(uuid "efc4c10d-1c3e-49c7-8043-57ad3992cfa5")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "H1")
 					(unit 1)
@@ -8120,7 +8120,7 @@
 			(uuid "ba3f5a0e-392b-4c48-a650-1d0e4140efed")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "#PWR06")
 					(unit 1)
@@ -8237,7 +8237,7 @@
 			(uuid "a6cc67eb-3d84-4add-80de-63487076c65e")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "J11")
 					(unit 1)
@@ -8400,7 +8400,7 @@
 			(uuid "199dec16-a21f-448c-a7e4-63671890a524")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "J1")
 					(unit 1)
@@ -8477,7 +8477,7 @@
 			(uuid "37a48261-5677-45dc-bd33-233262b0a8ed")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "R49")
 					(unit 1)
@@ -8542,7 +8542,7 @@
 			(uuid "fdf25f9e-fabc-4353-aba6-28b4a61ff8c1")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "#PWR04")
 					(unit 1)
@@ -8607,7 +8607,7 @@
 			(uuid "efaa0396-f8a4-4b8f-8993-290c9343b04c")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "#PWR0140")
 					(unit 1)
@@ -8672,7 +8672,7 @@
 			(uuid "37c1e04a-a1d8-4008-8c33-6cbf942a5998")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "#PWR0132")
 					(unit 1)
@@ -8789,7 +8789,7 @@
 			(uuid "983303a5-1e8e-4634-b752-0ab190d8cbdc")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "J30")
 					(unit 1)
@@ -8857,7 +8857,7 @@
 			(uuid "2a37f6f4-98c9-4aa8-b3d9-2771da3470c9")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "#PWR0143")
 					(unit 1)
@@ -8936,7 +8936,7 @@
 			(uuid "75dc6aae-5956-4f11-abcf-fe8bd3fba41c")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "D21")
 					(unit 1)
@@ -9003,7 +9003,7 @@
 			(uuid "2ebfc5ef-fb00-4e12-a998-d4d064b7d702")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "#PWR011")
 					(unit 1)
@@ -9124,7 +9124,7 @@
 			(uuid "df6ace20-bb8e-403f-9d21-bdea425df888")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "J21")
 					(unit 1)
@@ -9244,7 +9244,7 @@
 			(uuid "ab2fabc8-3641-469d-a488-3514eb3a859c")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "J19")
 					(unit 1)
@@ -9312,7 +9312,7 @@
 			(uuid "9d69c023-4859-4374-884a-f6e4b0fdda99")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "#PWR0142")
 					(unit 1)
@@ -9385,7 +9385,7 @@
 			)
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "U16")
 					(unit 1)
@@ -9461,7 +9461,7 @@
 			(uuid "0124a1ba-a6cf-4797-be83-a170f4625897")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "R57")
 					(unit 1)
@@ -9540,7 +9540,7 @@
 			(uuid "ea2321a4-075f-4baf-acd8-cfd141653e44")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "D23")
 					(unit 1)
@@ -9657,7 +9657,7 @@
 			(uuid "4ee79a40-3c6f-43f9-a0b4-12e3567bc17b")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "J13")
 					(unit 1)
@@ -9735,7 +9735,7 @@
 			(uuid "a1e2e0e8-f2cb-42e5-88b0-b9bbc446ee79")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "R4")
 					(unit 1)
@@ -9852,7 +9852,7 @@
 			(uuid "56040be6-86fc-41d3-a7c6-9d93b4fce90f")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "J29")
 					(unit 1)
@@ -9917,7 +9917,7 @@
 			(uuid "1e071540-bc4c-4105-b96c-f7d59ac702be")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "#PWR08")
 					(unit 1)
@@ -10034,7 +10034,7 @@
 			(uuid "2e8d28d5-b671-4934-9ff3-bd2b2ca80132")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "J27")
 					(unit 1)
@@ -10111,7 +10111,7 @@
 			(uuid "6e6f82a4-29a7-42c5-a37b-3f3d6bc86cce")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "C7")
 					(unit 1)
@@ -10184,7 +10184,7 @@
 			)
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "U14")
 					(unit 1)
@@ -10252,7 +10252,7 @@
 			(uuid "8ae35ada-5c94-4b98-aa4d-b1c6a7064d77")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "#PWR0141")
 					(unit 1)
@@ -10329,7 +10329,7 @@
 			(uuid "79871925-88ae-40ef-b342-5f526fe7d9f8")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "C6")
 					(unit 1)
@@ -10406,7 +10406,7 @@
 			(uuid "1339e397-86dd-441b-9283-1a46ba90f991")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "C17")
 					(unit 1)
@@ -10485,7 +10485,7 @@
 			(uuid "1e78bc08-d777-4b60-bc7b-a2ba7801b49a")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "C15")
 					(unit 1)
@@ -10605,7 +10605,7 @@
 			(uuid "2aedab92-2529-4a0c-a5fd-999bc40c7626")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "J9")
 					(unit 1)
@@ -10689,7 +10689,7 @@
 			(uuid "86088d6a-2a19-4a91-9454-717c647c1376")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "H2")
 					(unit 1)
@@ -10762,7 +10762,7 @@
 			)
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "U15")
 					(unit 1)
@@ -10892,7 +10892,7 @@
 			(uuid "7d1f935e-93be-4cf2-a357-06363735ad56")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "J2")
 					(unit 1)
@@ -10958,7 +10958,7 @@
 			(uuid "1e9d59a2-f5fb-47ee-8fd7-1af661f08756")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "#PWR0150")
 					(unit 1)
@@ -11061,7 +11061,7 @@
 			(uuid "9de5b3fb-ede8-47e9-9217-367714cc14b6")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "F4")
 					(unit 1)
@@ -11138,7 +11138,7 @@
 			(uuid "601b7c7e-02ea-4295-9978-6f7b308a828a")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "C8")
 					(unit 1)
@@ -11215,7 +11215,7 @@
 			(uuid "5d6ef45b-1157-4ee3-a616-acdb07fa8c2e")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "R48")
 					(unit 1)
@@ -11330,7 +11330,7 @@
 			(uuid "45675f64-e9b4-454c-be52-fb298494e4b0")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "J17")
 					(unit 1)
@@ -11407,7 +11407,7 @@
 			(uuid "ea648d32-d57d-4e3c-94ac-a1b27727d345")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "R63")
 					(unit 1)
@@ -11474,7 +11474,7 @@
 			(uuid "42971a95-5b05-490d-9b3c-3831b4e82013")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "#PWR0138")
 					(unit 1)
@@ -11551,7 +11551,7 @@
 			(uuid "f0de06ea-b7b4-4c5e-803e-46d6347335ef")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "R64")
 					(unit 1)
@@ -11619,7 +11619,7 @@
 			(uuid "638069d4-0e31-4bcf-b883-dc59f7b88c2a")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "#PWR0145")
 					(unit 1)
@@ -11687,7 +11687,7 @@
 			(uuid "38b14427-fcc2-4ceb-aaf6-0ceecca6d114")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "#PWR09")
 					(unit 1)
@@ -11807,7 +11807,7 @@
 			(uuid "624e62df-39a3-461c-88c4-5802bdfa5c3c")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "J7")
 					(unit 1)
@@ -11895,7 +11895,7 @@
 			(uuid "d57ef44b-84ad-48bb-9e49-26bd68453712")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "U2")
 					(unit 1)
@@ -12012,7 +12012,7 @@
 			(uuid "1b6974ed-8284-4fea-8daf-4f246a95b7b6")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "J12")
 					(unit 1)
@@ -12089,7 +12089,7 @@
 			(uuid "2460b58e-bb84-49da-b72c-cdd561c6a086")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "R51")
 					(unit 1)
@@ -12154,7 +12154,7 @@
 			(uuid "538bc87b-95c5-45f0-b058-33fc7956d9dc")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "#PWR03")
 					(unit 1)
@@ -12219,7 +12219,7 @@
 			(uuid "05ae66cb-b0eb-4a3d-bf37-2139cae58adf")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "#PWR031")
 					(unit 1)
@@ -12296,7 +12296,7 @@
 			(uuid "e91b48f1-26b1-4592-8ead-846a375af9cd")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "C2")
 					(unit 1)
@@ -12372,7 +12372,7 @@
 			(uuid "69bc0111-a043-4697-acc8-3793186c90ca")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "R54")
 					(unit 1)
@@ -12438,7 +12438,7 @@
 			(uuid "73dbd0d0-2a17-48da-9d76-5f1db0f73914")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "#PWR0151")
 					(unit 1)
@@ -12571,7 +12571,7 @@
 			(uuid "4613c90f-c351-472f-8558-f64dd30b3f7d")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "U12")
 					(unit 1)
@@ -12648,7 +12648,7 @@
 			(uuid "07bfd1cf-fe42-40a6-a3d4-935f482044da")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "C19")
 					(unit 1)
@@ -12725,7 +12725,7 @@
 			(uuid "bec5811a-cafd-49a7-b58b-c20b281ce783")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "R50")
 					(unit 1)
@@ -12802,7 +12802,7 @@
 			(uuid "46edcfd5-85b8-4fcf-a218-64dea3df502b")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "R61")
 					(unit 1)
@@ -12879,7 +12879,7 @@
 			(uuid "ee0a2856-2ce6-4fab-958b-a9ef2ad07edc")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "C20")
 					(unit 1)
@@ -12999,7 +12999,7 @@
 			(uuid "9f7fe0e7-f887-43f3-9cdc-02006b4c8f2f")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "J8")
 					(unit 1)
@@ -13072,7 +13072,7 @@
 			)
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "U17")
 					(unit 1)
@@ -13155,7 +13155,7 @@
 			(uuid "aca1408b-6127-4f24-b5d2-6842e73dca92")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "J4")
 					(unit 1)
@@ -13232,7 +13232,7 @@
 			(uuid "5934cd43-16a6-4ba1-bffd-1032d12efeed")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "R62")
 					(unit 1)
@@ -13308,7 +13308,7 @@
 			(uuid "45eb947f-154b-4766-a27a-388c83216e75")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "R55")
 					(unit 1)
@@ -13425,7 +13425,7 @@
 			(uuid "13065873-57e9-41cc-8f04-3bc972062549")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "J28")
 					(unit 1)
@@ -13545,7 +13545,7 @@
 			(uuid "bfd677a7-ceae-4f40-a142-cefe7912ff74")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "J6")
 					(unit 1)
@@ -13629,7 +13629,7 @@
 			(uuid "f95ea46e-cfad-4cc7-9e17-ac3168256616")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "H3")
 					(unit 1)
@@ -13713,7 +13713,7 @@
 			(uuid "78a58664-85e9-46d8-8afc-b2f1289ec082")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "H4")
 					(unit 1)
@@ -13819,7 +13819,7 @@
 			(uuid "f8abbe0f-8d86-4dfe-a82d-d32c18cd7e48")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "F2")
 					(unit 1)
@@ -13923,7 +13923,7 @@
 			(uuid "dc2530eb-005f-434d-945c-5a6ed0d0287c")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "J10")
 					(unit 1)
@@ -14038,7 +14038,7 @@
 			(uuid "8e928ebc-6c23-4503-ba3a-0bdd8df5fb02")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "J3")
 					(unit 1)
@@ -14106,7 +14106,7 @@
 			(uuid "d84c1c18-a6e2-467c-a024-54adb60ea83e")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "#PWR018")
 					(unit 1)
@@ -14223,7 +14223,7 @@
 			(uuid "21d7d1ed-0189-473e-94ad-86f89267a368")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "J14")
 					(unit 1)
@@ -14356,7 +14356,7 @@
 			(uuid "01137c76-1284-4ea7-91f3-8ce8c07620e9")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "U11")
 					(unit 1)
@@ -14435,7 +14435,7 @@
 			(uuid "077307c5-e177-469e-b83d-517340c2dca5")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "D24")
 					(unit 1)
@@ -14550,7 +14550,7 @@
 			(uuid "d9de0960-0e08-422b-8f90-3786f8abb090")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "J18")
 					(unit 1)
@@ -14615,7 +14615,7 @@
 			(uuid "7873eab1-06b9-4a36-acb3-5ff8861542c0")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "#PWR05")
 					(unit 1)
@@ -14691,7 +14691,7 @@
 			(uuid "15dc1d17-9d28-404c-97d9-c4c8b930a1a4")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "R56")
 					(unit 1)
@@ -14759,7 +14759,7 @@
 			(uuid "a0cbce9a-fa77-4d9d-8bbd-8b5d5d5a87ef")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "#PWR017")
 					(unit 1)
@@ -14827,7 +14827,7 @@
 			(uuid "99f05c7c-9e7a-4f5d-a15f-e43ded29f05b")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "#PWR013")
 					(unit 1)
@@ -14894,7 +14894,7 @@
 			(uuid "a35836fb-12c1-4223-b5f2-814f2a609bf2")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "#PWR0144")
 					(unit 1)
@@ -14971,7 +14971,7 @@
 			(uuid "fb97ecea-b9b1-4840-acf9-5e4c547e56d0")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "R47")
 					(unit 1)
@@ -15048,7 +15048,7 @@
 			(uuid "3bfa76ea-4ea9-479e-be39-3ebe5c89f253")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "R2")
 					(unit 1)
@@ -15168,7 +15168,7 @@
 			(uuid "bceb6ef3-79dd-4944-a84e-b54c40f92bc7")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "J5")
 					(unit 1)
@@ -15233,7 +15233,7 @@
 			(uuid "c8cf624e-68c6-4550-9ce3-90f40cff837a")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "#PWR02")
 					(unit 1)
@@ -15310,7 +15310,7 @@
 			(uuid "bdb75958-6748-4ff5-8f5e-d3bd912d4124")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "C18")
 					(unit 1)

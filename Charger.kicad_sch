@@ -2627,7 +2627,7 @@
 		(uuid "3ee2aa34-eecd-47d4-b0cd-fa97ee8b40e8")
 	)
 	(junction
-		(at 194.31 210.82)
+		(at 204.47 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "425333d8-1d5f-42c5-a8d6-298161c2cc83")
@@ -2637,6 +2637,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44f7fed8-65c3-4363-a02b-d2fe34f7d381")
+	)
+	(junction
+		(at 194.31 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47ab86b1-7bb4-45d1-9142-5514f6a04ee7")
 	)
 	(junction
 		(at 48.26 55.88)
@@ -2717,7 +2723,7 @@
 		(uuid "925c9059-4749-4d1e-b923-3e6d468aefa0")
 	)
 	(junction
-		(at 247.65 217.17)
+		(at 245.11 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94d86429-bcee-441d-9bd6-c878316e5896")
@@ -3070,7 +3076,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 210.82) (xy 194.31 215.9)
+			(xy 204.47 257.81) (xy 204.47 262.89)
 		)
 		(stroke
 			(width 0)
@@ -3190,7 +3196,7 @@
 	)
 	(bus
 		(pts
-			(xy 45.72 226.06) (xy 68.58 226.06)
+			(xy 46.99 262.89) (xy 69.85 262.89)
 		)
 		(stroke
 			(width 0)
@@ -3240,7 +3246,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 224.79) (xy 240.03 227.33)
+			(xy 237.49 256.54) (xy 237.49 259.08)
 		)
 		(stroke
 			(width 0)
@@ -3300,7 +3306,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 195.58) (xy 194.31 199.39)
+			(xy 204.47 242.57) (xy 204.47 246.38)
 		)
 		(stroke
 			(width 0)
@@ -3420,7 +3426,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 210.82) (xy 194.31 210.82)
+			(xy 198.12 257.81) (xy 204.47 257.81)
 		)
 		(stroke
 			(width 0)
@@ -3500,7 +3506,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 226.06) (xy 194.31 223.52)
+			(xy 204.47 273.05) (xy 204.47 270.51)
 		)
 		(stroke
 			(width 0)
@@ -3520,7 +3526,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 218.44) (xy 45.72 218.44)
+			(xy 62.23 255.27) (xy 46.99 255.27)
 		)
 		(stroke
 			(width 0)
@@ -3540,7 +3546,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 224.79) (xy 247.65 227.33)
+			(xy 245.11 256.54) (xy 245.11 259.08)
 		)
 		(stroke
 			(width 0)
@@ -3577,6 +3583,16 @@
 			(type default)
 		)
 		(uuid "6a58c261-e7f9-4b41-b59d-efdc8a696783")
+	)
+	(wire
+		(pts
+			(xy 194.31 118.11) (xy 205.74 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ab3fe4e-38cc-47fd-be91-397d926eb05e")
 	)
 	(wire
 		(pts
@@ -3690,7 +3706,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 217.17) (xy 247.65 217.17)
+			(xy 237.49 248.92) (xy 245.11 248.92)
 		)
 		(stroke
 			(width 0)
@@ -3880,7 +3896,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 224.79) (xy 255.27 227.33)
+			(xy 252.73 256.54) (xy 252.73 259.08)
 		)
 		(stroke
 			(width 0)
@@ -4140,7 +4156,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 217.17) (xy 255.27 217.17)
+			(xy 245.11 248.92) (xy 252.73 248.92)
 		)
 		(stroke
 			(width 0)
@@ -4330,7 +4346,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 207.01) (xy 194.31 210.82)
+			(xy 204.47 254) (xy 204.47 257.81)
 		)
 		(stroke
 			(width 0)
@@ -4608,6 +4624,17 @@
 		)
 		(uuid "fd28b52d-895e-4bbd-a0e3-d7068cca5bf7")
 	)
+	(text "RBot = 14.04 kOhms gives 4.12V cell end voltage.\n14.04 = 220k and 15k in parallel"
+		(exclude_from_sim no)
+		(at 414.274 164.338 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d6903d70-0af1-4867-bab0-8a331ccf096a")
+	)
 	(label "TS"
 		(at 139.7 146.05 0)
 		(fields_autoplaced yes)
@@ -4620,7 +4647,7 @@
 		(uuid "1c1335b3-5dd0-48e6-8ce8-5551b9918aba")
 	)
 	(label "REGN"
-		(at 120.65 269.24 0)
+		(at 160.02 273.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4652,8 +4679,8 @@
 		)
 		(uuid "20280f3e-8b0b-49f5-abad-1bd0a2b6d5da")
 	)
-	(label "3.3V"
-		(at 60.96 218.44 180)
+	(label "5V"
+		(at 62.23 255.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4685,17 +4712,6 @@
 		)
 		(uuid "3053487c-3c91-4d68-8a54-879be2b0ea56")
 	)
-	(label "3.3V"
-		(at 240.03 217.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3f4c85f4-037d-4a1b-86bc-71dc4e5fdf9a")
-	)
 	(label "SRP"
 		(at 372.11 161.29 0)
 		(fields_autoplaced yes)
@@ -4719,7 +4735,7 @@
 		(uuid "4775ab43-8f5c-4c43-8d67-5033d44e3052")
 	)
 	(label "TS"
-		(at 189.23 210.82 0)
+		(at 199.39 257.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4728,6 +4744,17 @@
 			(justify left bottom)
 		)
 		(uuid "4f766e7a-83fd-4b36-bf69-11c39a1869fa")
+	)
+	(label "5V"
+		(at 237.49 248.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58b1c759-42c9-43fa-9207-35e423c18856")
 	)
 	(label "I2C.SDA"
 		(at 185.42 168.91 0)
@@ -4763,7 +4790,7 @@
 		(uuid "640845ce-2882-4d31-a22b-a72243b8504d")
 	)
 	(label "~{PG}"
-		(at 255.27 234.95 270)
+		(at 252.73 266.7 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4774,7 +4801,7 @@
 		(uuid "7894f445-22c2-4c41-bc76-c89b21a42b42")
 	)
 	(label "STAT2"
-		(at 247.65 234.95 270)
+		(at 245.11 266.7 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4807,7 +4834,7 @@
 		(uuid "b0c13bd3-a7c9-4348-be9c-43e9f391485e")
 	)
 	(label "STAT1"
-		(at 240.03 234.95 270)
+		(at 237.49 266.7 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4829,7 +4856,7 @@
 		(uuid "ce2d431c-f471-47a4-a230-cadb4695405a")
 	)
 	(label "DRV_SUP"
-		(at 124.46 264.16 0)
+		(at 163.83 267.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4851,7 +4878,7 @@
 		(uuid "dfc8e48f-df3b-4df1-a5bf-ff57b2885fb9")
 	)
 	(label "REGN"
-		(at 194.31 195.58 180)
+		(at 204.47 242.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4883,6 +4910,18 @@
 		)
 		(uuid "f39de91f-63f2-47c8-9c8c-643712aaa470")
 	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 46.99 255.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2614c1ff-317c-438b-8184-9e7cc85ac6a9")
+	)
 	(hierarchical_label "V_BATT_CHARGE"
 		(shape output)
 		(at 478.79 124.46 0)
@@ -4897,7 +4936,7 @@
 	)
 	(hierarchical_label "NTC_BATT"
 		(shape input)
-		(at 187.96 210.82 180)
+		(at 198.12 257.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4907,21 +4946,9 @@
 		)
 		(uuid "702ba479-3628-4fb1-8933-858645dbef8b")
 	)
-	(hierarchical_label "3.3V"
-		(shape input)
-		(at 45.72 218.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7d9ce6df-8b4d-41fd-9ff4-4e666809f9f6")
-	)
 	(hierarchical_label "I2C{SDA SCL}"
 		(shape input)
-		(at 45.72 226.06 180)
+		(at 46.99 262.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5248,7 +5275,7 @@
 			(uuid "96f7c460-3ab7-4d27-a7c7-51426042f339")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "U27")
 					(unit 1)
@@ -5326,7 +5353,7 @@
 			(uuid "98b3d836-7c9c-4040-b4e9-b86c2a389d72")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C81")
 					(unit 1)
@@ -5403,7 +5430,7 @@
 			(uuid "da0956bb-4621-4731-ba41-8281bc8113d8")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C83")
 					(unit 1)
@@ -5481,7 +5508,7 @@
 			(uuid "5591b6bb-6e0d-4f6a-b121-d3d2e7f5b5b5")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C44")
 					(unit 1)
@@ -5559,7 +5586,7 @@
 			(uuid "6c743438-6e30-4e9a-a462-1d6f23bc5a83")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C82")
 					(unit 1)
@@ -5569,7 +5596,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 247.65 220.98 90)
+		(at 245.11 252.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5578,7 +5605,7 @@
 		(fields_autoplaced yes)
 		(uuid "14c5648b-f297-4af8-8e9e-060b50f5f129")
 		(property "Reference" "D6"
-			(at 251.46 221.2974 90)
+			(at 248.92 253.0474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5587,7 +5614,7 @@
 			)
 		)
 		(property "Value" "LED GREEN"
-			(at 251.46 223.8374 90)
+			(at 248.92 255.5874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5596,7 +5623,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 247.65 220.98 0)
+			(at 245.11 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5605,7 +5632,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 220.98 0)
+			(at 245.11 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5614,7 +5641,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 247.65 220.98 0)
+			(at 245.11 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5623,7 +5650,7 @@
 			)
 		)
 		(property "JLC" "C2297"
-			(at 247.65 220.98 0)
+			(at 245.11 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5638,7 +5665,7 @@
 			(uuid "8e0a21fd-478b-405b-8918-bb177462b6a8")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "D6")
 					(unit 1)
@@ -5648,7 +5675,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 255.27 220.98 90)
+		(at 252.73 252.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5657,7 +5684,7 @@
 		(fields_autoplaced yes)
 		(uuid "184b52dd-1032-4511-9e72-281c281e2ea7")
 		(property "Reference" "D29"
-			(at 259.08 221.2974 90)
+			(at 256.54 253.0474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5666,7 +5693,7 @@
 			)
 		)
 		(property "Value" "LED GREEN"
-			(at 259.08 223.8374 90)
+			(at 256.54 255.5874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5675,7 +5702,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 255.27 220.98 0)
+			(at 252.73 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5684,7 +5711,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 220.98 0)
+			(at 252.73 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5693,7 +5720,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 255.27 220.98 0)
+			(at 252.73 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5702,7 +5729,7 @@
 			)
 		)
 		(property "JLC" "C2297"
-			(at 255.27 220.98 0)
+			(at 252.73 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5717,7 +5744,7 @@
 			(uuid "d5729900-a392-42c8-ab60-49099b208713")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "D29")
 					(unit 1)
@@ -5796,7 +5823,7 @@
 			(uuid "7bd26f7a-6e65-4a3a-84e6-125b0c4d3d0b")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C50")
 					(unit 1)
@@ -5823,7 +5850,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "140kR"
+		(property "Value" "220kR 0.1%"
 			(at 425.45 146.0499 0)
 			(effects
 				(font
@@ -5859,7 +5886,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C185372"
+		(property "JLC" "C861231"
 			(at 422.91 144.78 0)
 			(effects
 				(font
@@ -5875,7 +5902,7 @@
 			(uuid "2669ec4f-d4bc-4c5e-9ffa-1d15ad41ed71")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R71")
 					(unit 1)
@@ -5942,7 +5969,7 @@
 			(uuid "f2589f36-4639-4c3a-ae92-fcf6960ecec2")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR0166")
 					(unit 1)
@@ -5952,7 +5979,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 194.31 226.06 0)
+		(at 204.47 273.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5961,7 +5988,7 @@
 		(fields_autoplaced yes)
 		(uuid "28bbabfd-2554-4128-88e4-7cc3aa07ca72")
 		(property "Reference" "#PWR0165"
-			(at 194.31 232.41 0)
+			(at 204.47 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5970,7 +5997,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 231.14 0)
+			(at 204.47 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5978,7 +6005,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 226.06 0)
+			(at 204.47 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5987,7 +6014,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 226.06 0)
+			(at 204.47 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5996,7 +6023,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 226.06 0)
+			(at 204.47 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6008,7 +6035,7 @@
 			(uuid "68213d2e-49c1-4c06-bc8f-92f0945aa49f")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR0165")
 					(unit 1)
@@ -6018,7 +6045,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 255.27 231.14 0)
+		(at 252.73 262.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6027,7 +6054,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a68ff4b-05b2-4bfb-ab24-f2d00e4f7855")
 		(property "Reference" "R76"
-			(at 257.81 229.8699 0)
+			(at 255.27 261.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6036,7 +6063,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 257.81 232.4099 0)
+			(at 255.27 264.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6045,7 +6072,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 253.492 231.14 90)
+			(at 250.952 262.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6054,7 +6081,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 231.14 0)
+			(at 252.73 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6063,7 +6090,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 255.27 231.14 0)
+			(at 252.73 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6072,7 +6099,7 @@
 			)
 		)
 		(property "JLC" "C25744"
-			(at 255.27 231.14 0)
+			(at 252.73 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6087,7 +6114,7 @@
 			(uuid "52253a23-4008-4b3c-828f-e0e9af2b9c66")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R76")
 					(unit 1)
@@ -6153,7 +6180,7 @@
 			(uuid "932fd756-37db-4acb-ad9d-c8340d6209ca")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR0167")
 					(unit 1)
@@ -6163,7 +6190,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 240.03 220.98 90)
+		(at 237.49 252.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6172,7 +6199,7 @@
 		(fields_autoplaced yes)
 		(uuid "375ef249-1d61-4d40-8718-6fd6679f35c4")
 		(property "Reference" "D5"
-			(at 243.84 221.2974 90)
+			(at 241.3 253.0474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6181,7 +6208,7 @@
 			)
 		)
 		(property "Value" "LED GREEN"
-			(at 243.84 223.8374 90)
+			(at 241.3 255.5874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6190,7 +6217,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 240.03 220.98 0)
+			(at 237.49 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6199,7 +6226,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 220.98 0)
+			(at 237.49 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6208,7 +6235,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 240.03 220.98 0)
+			(at 237.49 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6217,7 +6244,7 @@
 			)
 		)
 		(property "JLC" "C2297"
-			(at 240.03 220.98 0)
+			(at 237.49 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6232,7 +6259,7 @@
 			(uuid "c5e5301b-ce79-44fd-8bff-412b462f4b7e")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "D5")
 					(unit 1)
@@ -6298,7 +6325,7 @@
 			(uuid "241ad293-bd7f-4e08-87e4-5f93e7948148")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR0158")
 					(unit 1)
@@ -6377,7 +6404,7 @@
 			(uuid "2eca5a93-93ad-4c57-a0ce-f095dab42c40")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R69")
 					(unit 1)
@@ -6468,7 +6495,7 @@
 			(uuid "9bd0e6d8-8418-462a-ae7f-31e198ac2b84")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "Q7")
 					(unit 1)
@@ -6535,7 +6562,7 @@
 			(uuid "710910d2-b1ad-4625-9e75-88a3fc91fc25")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR053")
 					(unit 1)
@@ -6615,7 +6642,7 @@
 			(uuid "a4e2bf27-6c0b-464b-8e08-d64ea81ceae5")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C48")
 					(unit 1)
@@ -6681,7 +6708,7 @@
 			(uuid "cd5892dd-d520-43ea-8cfb-260364dc42a4")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR052")
 					(unit 1)
@@ -6708,7 +6735,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "140kR"
+		(property "Value" "15k 0.1%"
 			(at 435.61 146.0499 0)
 			(effects
 				(font
@@ -6744,7 +6771,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C185372"
+		(property "JLC" "C2692707"
 			(at 433.07 144.78 0)
 			(effects
 				(font
@@ -6760,7 +6787,7 @@
 			(uuid "59259ba3-c295-4832-b364-3df9ebfd3dfc")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R23")
 					(unit 1)
@@ -6838,7 +6865,7 @@
 			(uuid "0b19eede-a485-4d83-bc66-32c37101e23e")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C59")
 					(unit 1)
@@ -6916,7 +6943,7 @@
 			(uuid "a578af07-481b-46b7-86f0-7239211193cb")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C40")
 					(unit 1)
@@ -7007,7 +7034,7 @@
 			(uuid "e2a5ad56-4a37-43ae-9592-ddd616afbd84")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "Q8")
 					(unit 1)
@@ -7074,7 +7101,7 @@
 			(uuid "c195f2f0-b590-4f83-ad90-61ecb3658b0b")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR0162")
 					(unit 1)
@@ -7141,7 +7168,7 @@
 			(uuid "99592e5c-509c-4a41-87a9-06416c0eaf6d")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR0161")
 					(unit 1)
@@ -7220,7 +7247,7 @@
 			(uuid "84a0dbfa-2b6b-427b-8515-266fd11c6889")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R33")
 					(unit 1)
@@ -7230,7 +7257,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 194.31 219.71 0)
+		(at 204.47 266.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7239,7 +7266,7 @@
 		(fields_autoplaced yes)
 		(uuid "84d98b94-6253-4c39-a255-dde26629735f")
 		(property "Reference" "R73"
-			(at 196.85 218.4399 0)
+			(at 207.01 265.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7248,7 +7275,7 @@
 			)
 		)
 		(property "Value" "30.31kR"
-			(at 196.85 220.9799 0)
+			(at 207.01 267.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7257,7 +7284,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 192.532 219.71 90)
+			(at 202.692 266.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7266,7 +7293,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 219.71 0)
+			(at 204.47 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7275,7 +7302,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 194.31 219.71 0)
+			(at 204.47 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7290,7 +7317,7 @@
 			(uuid "0fc13ced-b7b2-4b0f-8d4e-005e7db253b3")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R73")
 					(unit 1)
@@ -7370,7 +7397,7 @@
 			(uuid "fcfbc4e5-e25d-42b7-ad55-148673169830")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C79")
 					(unit 1)
@@ -7436,7 +7463,7 @@
 			(uuid "05744f27-e185-41fd-a83b-d95694c0ed01")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR0160")
 					(unit 1)
@@ -7514,7 +7541,7 @@
 			(uuid "5d04222b-a2b9-4cc9-8b52-6516df16cdba")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C38")
 					(unit 1)
@@ -7580,7 +7607,7 @@
 			(uuid "0f8f7bf8-7e58-4a36-95ab-3e3de99ae01a")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR0157")
 					(unit 1)
@@ -7590,7 +7617,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 240.03 231.14 0)
+		(at 237.49 262.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7599,7 +7626,7 @@
 		(fields_autoplaced yes)
 		(uuid "90e46ca7-6572-4616-a488-df8dd6677438")
 		(property "Reference" "R34"
-			(at 242.57 229.8699 0)
+			(at 240.03 261.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7608,7 +7635,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 242.57 232.4099 0)
+			(at 240.03 264.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7617,7 +7644,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 238.252 231.14 90)
+			(at 235.712 262.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7626,7 +7653,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 231.14 0)
+			(at 237.49 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7635,7 +7662,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 240.03 231.14 0)
+			(at 237.49 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7644,7 +7671,7 @@
 			)
 		)
 		(property "JLC" "C25744"
-			(at 240.03 231.14 0)
+			(at 237.49 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7659,7 +7686,7 @@
 			(uuid "2cd13adb-10a9-40de-a132-a09e3a2942ff")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R34")
 					(unit 1)
@@ -7725,7 +7752,7 @@
 			(uuid "c55722c6-3e45-4ddb-b20b-38ec062c5e33")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR0155")
 					(unit 1)
@@ -7791,7 +7818,7 @@
 			(uuid "f47fa5d7-27ff-47fb-9c78-eecc4d39d81c")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR024")
 					(unit 1)
@@ -7870,7 +7897,7 @@
 			(uuid "82df7a2b-9b33-4467-8bef-ed3cdf0812cf")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "D26")
 					(unit 1)
@@ -7947,7 +7974,7 @@
 			(uuid "93728f3d-2aa7-49a5-8e86-b534077a7c8c")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R74")
 					(unit 1)
@@ -8026,7 +8053,7 @@
 			(uuid "a57cae70-d366-4a03-acff-abb65457a760")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R66")
 					(unit 1)
@@ -8103,7 +8130,7 @@
 			(uuid "16e69d3c-bc78-49b1-9e64-a60a101da4a0")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "L4")
 					(unit 1)
@@ -8181,7 +8208,7 @@
 			(uuid "6876cdd4-6794-4250-a885-e57e146564a6")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C58")
 					(unit 1)
@@ -8247,7 +8274,7 @@
 			(uuid "f215bb04-892b-46db-8822-b0004acf863f")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR051")
 					(unit 1)
@@ -8326,7 +8353,7 @@
 			(uuid "8aefdd56-82f9-4868-bfdb-5905bbdbf7df")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C84")
 					(unit 1)
@@ -8336,7 +8363,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 247.65 231.14 0)
+		(at 245.11 262.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8345,7 +8372,7 @@
 		(fields_autoplaced yes)
 		(uuid "b16cd98e-7c69-460d-b83b-2db83156036c")
 		(property "Reference" "R35"
-			(at 250.19 229.8699 0)
+			(at 247.65 261.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8354,7 +8381,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 250.19 232.4099 0)
+			(at 247.65 264.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8363,7 +8390,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 245.872 231.14 90)
+			(at 243.332 262.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8372,7 +8399,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 231.14 0)
+			(at 245.11 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8381,7 +8408,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 247.65 231.14 0)
+			(at 245.11 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8390,7 +8417,7 @@
 			)
 		)
 		(property "JLC" "C25744"
-			(at 247.65 231.14 0)
+			(at 245.11 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8405,7 +8432,7 @@
 			(uuid "a3537669-1c6d-43c7-98a4-6aea80327d5b")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R35")
 					(unit 1)
@@ -8483,7 +8510,7 @@
 			(uuid "782af717-c76e-421b-b220-5c310d5808ae")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C43")
 					(unit 1)
@@ -8560,7 +8587,7 @@
 			(uuid "34aa891e-a1c0-40a2-aa3c-9940a8a12210")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R67")
 					(unit 1)
@@ -8570,7 +8597,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 120.65 248.92 180)
+		(at 160.02 252.73 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8579,7 +8606,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4dec9bc-fc61-4e72-a926-d820987f95c7")
 		(property "Reference" "#PWR0163"
-			(at 120.65 242.57 0)
+			(at 160.02 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8588,7 +8615,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 243.84 0)
+			(at 160.02 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8596,7 +8623,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 248.92 0)
+			(at 160.02 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8605,7 +8632,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 248.92 0)
+			(at 160.02 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8614,7 +8641,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 248.92 0)
+			(at 160.02 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8626,7 +8653,7 @@
 			(uuid "5fe926ea-8896-45a0-9f8b-849eafad11a3")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR0163")
 					(unit 1)
@@ -8692,7 +8719,7 @@
 			(uuid "e918d595-31a8-4f40-b9a5-2eaf0e2a7056")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR071")
 					(unit 1)
@@ -8702,7 +8729,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 194.31 203.2 0)
+		(at 204.47 250.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8711,7 +8738,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb656f3a-29bc-429f-91a8-551dd70cd4ba")
 		(property "Reference" "R72"
-			(at 196.85 201.9299 0)
+			(at 207.01 248.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8720,7 +8747,7 @@
 			)
 		)
 		(property "Value" "5.24kR"
-			(at 196.85 204.4699 0)
+			(at 207.01 251.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8729,7 +8756,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 192.532 203.2 90)
+			(at 202.692 250.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8738,7 +8765,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 203.2 0)
+			(at 204.47 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8747,7 +8774,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 194.31 203.2 0)
+			(at 204.47 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8762,7 +8789,7 @@
 			(uuid "1e86a77c-a694-4c58-8443-155a34da87b8")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R72")
 					(unit 1)
@@ -8842,7 +8869,7 @@
 			(uuid "5195e007-5823-407b-ac06-b6a2952cc3d5")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C80")
 					(unit 1)
@@ -8852,7 +8879,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_2Pole")
-		(at 120.65 254 90)
+		(at 160.02 257.81 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8861,7 +8888,7 @@
 		(dnp no)
 		(uuid "c1fd0dbe-0d17-4ad5-9fd4-7cbb9f9e6908")
 		(property "Reference" "TP1"
-			(at 123.19 255.2701 90)
+			(at 162.56 259.0801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8870,7 +8897,7 @@
 			)
 		)
 		(property "Value" "TestPoint_2Pole"
-			(at 123.19 252.7301 90)
+			(at 162.56 256.5401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8879,7 +8906,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 120.65 254 0)
+			(at 160.02 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8888,7 +8915,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 254 0)
+			(at 160.02 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8897,7 +8924,7 @@
 			)
 		)
 		(property "Description" "2-polar test point"
-			(at 120.65 254 0)
+			(at 160.02 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8912,7 +8939,7 @@
 			(uuid "7d5d1f1c-6cab-4a75-9f3a-c7dcdecfa81d")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "TP1")
 					(unit 1)
@@ -8991,7 +9018,7 @@
 			(uuid "63aa535f-a33e-46a8-89a1-e3f4ffe8c73d")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R75")
 					(unit 1)
@@ -9069,7 +9096,7 @@
 			(uuid "d72ee40d-e5b0-4696-8054-374d910a44d3")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C56")
 					(unit 1)
@@ -9079,7 +9106,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_3_Bridged12")
-		(at 120.65 264.16 90)
+		(at 160.02 267.97 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -9088,7 +9115,7 @@
 		(fields_autoplaced yes)
 		(uuid "c48369d5-5d04-4aef-8ed1-45927a6dc30d")
 		(property "Reference" "JP1"
-			(at 118.11 262.8899 90)
+			(at 157.48 266.6999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9097,7 +9124,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_3_Bridged12"
-			(at 118.11 265.4299 90)
+			(at 157.48 269.2399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9106,7 +9133,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm"
-			(at 120.65 264.16 0)
+			(at 160.02 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9115,7 +9142,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 264.16 0)
+			(at 160.02 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9124,7 +9151,7 @@
 			)
 		)
 		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-			(at 120.65 264.16 0)
+			(at 160.02 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9142,7 +9169,7 @@
 			(uuid "c79c2855-1fab-4c5b-a2ee-7ed2ab73753f")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "JP1")
 					(unit 1)
@@ -9221,7 +9248,7 @@
 			(uuid "6114ab7c-673e-4724-8550-1c42bdf28ff8")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "D2")
 					(unit 1)
@@ -9301,7 +9328,7 @@
 			(uuid "6a6fa0cb-f226-4c19-8f25-ecc14caec97e")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C49")
 					(unit 1)
@@ -9380,7 +9407,7 @@
 			(uuid "beab52f4-87c3-4391-99f2-bd27bc6260b0")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R68")
 					(unit 1)
@@ -9450,7 +9477,7 @@
 			(uuid "26474bd5-6a0f-4535-bd5e-ec9a725e35cd")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R22")
 					(unit 1)
@@ -9516,7 +9543,7 @@
 			(uuid "f0e184a6-2828-4d11-a34a-9fb6922df554")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR0159")
 					(unit 1)
@@ -9593,7 +9620,7 @@
 			(uuid "52d0c7ce-27f6-4626-9213-470bea43a5e4")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R20")
 					(unit 1)
@@ -9671,7 +9698,7 @@
 			(uuid "ac840b06-c8e6-4046-a1a0-118df9d81f84")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C39")
 					(unit 1)
@@ -9749,7 +9776,7 @@
 			(uuid "cf704f97-2675-4534-a5d0-0f5e10d6fb74")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C45")
 					(unit 1)
@@ -9828,7 +9855,7 @@
 			(uuid "385aae70-695a-4e77-8451-8fd49b166720")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C78")
 					(unit 1)
@@ -9906,7 +9933,7 @@
 			(uuid "87461634-9b34-40b3-acee-e820cd94c20b")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C41")
 					(unit 1)
@@ -9972,7 +9999,7 @@
 			(uuid "e1493c36-6c7c-4217-8445-bc00eea3abc2")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR0164")
 					(unit 1)
@@ -10051,7 +10078,7 @@
 			(uuid "a2d61a04-d906-4866-a166-804934fa9320")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R21")
 					(unit 1)
@@ -10130,7 +10157,7 @@
 			(uuid "761c8a73-252c-4b03-8515-9a929d7a1917")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C42")
 					(unit 1)
@@ -10196,7 +10223,7 @@
 			(uuid "72dc7d06-d16c-49e5-be61-24fb95c79477")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR0156")
 					(unit 1)
@@ -10276,7 +10303,7 @@
 			(uuid "7cc5cb9f-eb0b-426a-946a-e605750ba8a7")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C76")
 					(unit 1)
@@ -10354,7 +10381,7 @@
 			(uuid "2dcc318b-c1be-4fdd-ab52-7d71c65047c1")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C55")
 					(unit 1)
@@ -10432,7 +10459,7 @@
 			(uuid "3b0e8ba6-e88b-4448-8c5b-23eb2ea18dd4")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C46")
 					(unit 1)
@@ -10523,7 +10550,7 @@
 			(uuid "eda51945-7a55-49d2-a951-7c54b9745018")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "Q9")
 					(unit 1)
@@ -10602,7 +10629,7 @@
 			(uuid "a3de4392-76a2-4dc6-a1f8-b7a8a66d6106")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C47")
 					(unit 1)
@@ -10693,7 +10720,7 @@
 			(uuid "c808a4ba-6f80-4a14-9f47-ed2ed2d480eb")
 		)
 		(instances
-			(project "hw-xbot-devkit"
+			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "Q6")
 					(unit 1)
