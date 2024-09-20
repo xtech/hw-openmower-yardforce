@@ -27,7 +27,7 @@ This mainboard is compatible with the following mower models:
 
 
 
-### Additional Information
+## Additional Information
 
 This mainboard is the reference board for OpenMower and includes more features than actually required to build an OpenMower robot. This way it can be used as a template for other mower models. Additional features include a gigabit Ethernet switch, LiPo charger, and a 12V auxiliary power supply for extensions.
 
