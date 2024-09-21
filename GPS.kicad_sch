@@ -1284,24 +1284,6 @@
 					)
 				)
 				(pin input line
-					(at 17.78 12.7 180)
-					(length 2.54)
-					(name "RXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at 17.78 15.24 180)
 					(length 2.54)
 					(name "VCC"
@@ -1312,6 +1294,24 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 12.7 180)
+					(length 2.54)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1534,6 +1534,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 125.73) (xy 130.81 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0e93ee9-9eeb-42b5-b18a-472309106b25")
+	)
+	(wire
+		(pts
 			(xy 142.24 176.53) (xy 142.24 179.07)
 		)
 		(stroke
@@ -1551,6 +1561,16 @@
 			(type default)
 		)
 		(uuid "d18a3a94-3bf5-422a-b1c3-d9310fca8500")
+	)
+	(wire
+		(pts
+			(xy 123.19 123.19) (xy 130.81 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e511ddae-899b-4ab8-bf76-7e5d30ddb871")
 	)
 	(wire
 		(pts
@@ -1581,6 +1601,16 @@
 			(type default)
 		)
 		(uuid "eadbd0ff-9246-45a2-981e-bc87e1dddb2d")
+	)
+	(wire
+		(pts
+			(xy 123.19 120.65) (xy 130.81 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f18fa079-3b04-4f9c-ba9c-0b1dcad1b087")
 	)
 	(wire
 		(pts
@@ -1615,6 +1645,17 @@
 		)
 		(uuid "af2c2217-3799-4268-9863-7ca8fdcb4e03")
 	)
+	(label "5V"
+		(at 130.81 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0b6e5763-6748-41a9-9dda-41ae57b37072")
+	)
 	(label "TXD"
 		(at 189.23 166.37 0)
 		(fields_autoplaced yes)
@@ -1625,6 +1666,28 @@
 			(justify left bottom)
 		)
 		(uuid "175a61af-4548-47f2-b407-fdfa8b1e5fc4")
+	)
+	(label "3.3V"
+		(at 142.24 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "228d86d5-2d08-49bb-902b-6975fe37bc5b")
+	)
+	(label "EN"
+		(at 130.81 171.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5908dd61-7525-4440-b76a-7ce3fe3e9f80")
 	)
 	(label "TXD"
 		(at 130.81 115.57 180)
@@ -1637,6 +1700,17 @@
 		)
 		(uuid "5981e4c9-2d55-4ceb-9646-70a255dc7089")
 	)
+	(label "EN"
+		(at 130.81 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5f1e5c68-7aa1-4079-95cb-8ec7c2da5e52")
+	)
 	(label "RXD"
 		(at 179.07 163.83 0)
 		(fields_autoplaced yes)
@@ -1647,6 +1721,28 @@
 			(justify left bottom)
 		)
 		(uuid "60586624-3693-49bd-8a4c-52a5ef0aa256")
+	)
+	(label "5V"
+		(at 130.81 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "62a1ce6f-b569-4e14-bf33-967181c3cee3")
+	)
+	(label "3.3V"
+		(at 130.81 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a154646e-c7ec-4b43-bb87-618460f0690e")
 	)
 	(label "TXD"
 		(at 142.24 107.95 90)
@@ -1669,6 +1765,17 @@
 			(justify right bottom)
 		)
 		(uuid "c60a7e14-c3e8-4165-b503-07d0c4deb808")
+	)
+	(label "5V"
+		(at 142.24 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d1afbb6e-d4e8-4033-90eb-91f192aff7c4")
 	)
 	(label "RXD"
 		(at 130.81 118.11 180)
@@ -1693,9 +1800,21 @@
 		)
 		(uuid "2f6c12ae-3658-4919-b416-de955fe74e1e")
 	)
+	(hierarchical_label "EN"
+		(shape input)
+		(at 123.19 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37bcd546-516b-4e50-a280-52129063dac9")
+	)
 	(hierarchical_label "3.3V"
 		(shape input)
-		(at 142.24 124.46 180)
+		(at 123.19 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1719,31 +1838,7 @@
 	)
 	(hierarchical_label "5V"
 		(shape input)
-		(at 130.81 161.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "54ca7b15-48fe-4856-9128-1b09df0f6845")
-	)
-	(hierarchical_label "3.3V"
-		(shape input)
-		(at 130.81 171.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d8d8e9a1-d59a-4e24-ae82-c969b2257d97")
-	)
-	(hierarchical_label "5V"
-		(shape input)
-		(at 142.24 127 180)
+		(at 123.19 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2120,7 +2215,7 @@
 				(hide yes)
 			)
 		)
-		(pin "7"
+		(pin "9"
 			(uuid "2eecc8b2-2c7c-4740-9865-8cb5990b356f")
 		)
 		(pin "12"

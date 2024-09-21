@@ -3693,6 +3693,16 @@
 		)
 		(uuid "c879a104-d5c9-46ea-bf1a-3956bf76f18f")
 	)
+	(wire
+		(pts
+			(xy 266.7 196.85) (xy 287.02 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c97bfd34-10a3-454c-ba4c-eed495052216")
+	)
 	(bus
 		(pts
 			(xy 67.31 226.06) (xy 72.39 226.06)
@@ -4723,6 +4733,17 @@
 			(justify left bottom)
 		)
 		(uuid "8b2a5d8f-54e3-4751-a253-31d5592c397e")
+	)
+	(label "GPIO2"
+		(at 266.7 196.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8bd680dc-3534-4405-80ce-946fdd58e0c5")
 	)
 	(label "SPI2{MISO MOSI SCK}"
 		(at 359.41 139.7 0)
@@ -7674,6 +7695,16 @@
 				(justify left)
 			)
 			(uuid "916ef644-f8ed-4722-8a1c-8f62e7d9a174")
+		)
+		(pin "EN" input
+			(at 287.02 196.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8d1dd9f0-721d-4910-9ced-810af325a89b")
 		)
 		(instances
 			(project "hw-openmower-yardforce"
