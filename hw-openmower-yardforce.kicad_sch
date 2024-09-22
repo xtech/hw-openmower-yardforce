@@ -7696,7 +7696,7 @@
 			)
 			(uuid "916ef644-f8ed-4722-8a1c-8f62e7d9a174")
 		)
-		(pin "EN" input
+		(pin "~{EN}" input
 			(at 287.02 196.85 180)
 			(effects
 				(font
@@ -7704,7 +7704,7 @@
 				)
 				(justify left)
 			)
-			(uuid "8d1dd9f0-721d-4910-9ced-810af325a89b")
+			(uuid "ed3c6ca9-806a-497e-9ddd-9c64dd7a3c22")
 		)
 		(instances
 			(project "hw-openmower-yardforce"

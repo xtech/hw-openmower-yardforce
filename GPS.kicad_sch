@@ -126,6 +126,301 @@
 				)
 			)
 		)
+		(symbol "Transistor_FET:BSS138"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BSS138"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BSS138_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "BSS138_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1323,6 +1618,18 @@
 		)
 	)
 	(junction
+		(at 107.95 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "250afe10-77b9-4c2d-86a7-a65ef44a6d83")
+	)
+	(junction
+		(at 142.24 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "297be34e-3410-4f30-8aa8-2417904ecb05")
+	)
+	(junction
 		(at 142.24 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1374,6 +1681,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 176.53) (xy 123.19 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1722cee2-f1c9-4a43-8996-ee35609f1c20")
+	)
+	(wire
+		(pts
 			(xy 170.18 171.45) (xy 170.18 175.26)
 		)
 		(stroke
@@ -1391,6 +1708,16 @@
 			(type default)
 		)
 		(uuid "2dc5df19-bb3c-4f31-bedc-8f3edda6648e")
+	)
+	(wire
+		(pts
+			(xy 107.95 176.53) (xy 107.95 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32072d75-b839-4c91-8768-56bafefe73fe")
 	)
 	(wire
 		(pts
@@ -1431,6 +1758,16 @@
 			(type default)
 		)
 		(uuid "52e93a07-65a8-448e-8801-f2f552b6c585")
+	)
+	(wire
+		(pts
+			(xy 130.81 181.61) (xy 142.24 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63edfe4f-f694-4dad-abbc-fac9e5e8dcd8")
 	)
 	(wire
 		(pts
@@ -1494,6 +1831,36 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 176.53) (xy 111.76 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "971b8958-7b8b-49c2-90ef-233e962602f4")
+	)
+	(wire
+		(pts
+			(xy 96.52 176.53) (xy 107.95 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0e674fb-7f1c-4bda-807f-1a0f88dde79e")
+	)
+	(wire
+		(pts
+			(xy 107.95 191.77) (xy 107.95 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1aa4e51-52a0-4c63-9716-e67a785672db")
+	)
+	(wire
+		(pts
 			(xy 142.24 132.08) (xy 142.24 134.62)
 		)
 		(stroke
@@ -1501,6 +1868,16 @@
 			(type default)
 		)
 		(uuid "a1fc4300-75de-4e5b-8814-fd882ae3cdb5")
+	)
+	(wire
+		(pts
+			(xy 142.24 181.61) (xy 142.24 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a33aefbc-f97b-4101-84f0-623b662cea7b")
 	)
 	(wire
 		(pts
@@ -1544,7 +1921,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 176.53) (xy 142.24 179.07)
+			(xy 142.24 176.53) (xy 142.24 181.61)
 		)
 		(stroke
 			(width 0)
@@ -1678,17 +2055,6 @@
 		)
 		(uuid "228d86d5-2d08-49bb-902b-6975fe37bc5b")
 	)
-	(label "EN"
-		(at 130.81 171.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5908dd61-7525-4440-b76a-7ce3fe3e9f80")
-	)
 	(label "TXD"
 		(at 130.81 115.57 180)
 		(fields_autoplaced yes)
@@ -1700,7 +2066,7 @@
 		)
 		(uuid "5981e4c9-2d55-4ceb-9646-70a255dc7089")
 	)
-	(label "EN"
+	(label "~{EN}"
 		(at 130.81 125.73 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1766,6 +2132,17 @@
 		)
 		(uuid "c60a7e14-c3e8-4165-b503-07d0c4deb808")
 	)
+	(label "~{EN}"
+		(at 96.52 176.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd5cf3bb-702d-4206-9941-8005f2e517f9")
+	)
 	(label "5V"
 		(at 142.24 127 180)
 		(fields_autoplaced yes)
@@ -1800,7 +2177,7 @@
 		)
 		(uuid "2f6c12ae-3658-4919-b416-de955fe74e1e")
 	)
-	(hierarchical_label "EN"
+	(hierarchical_label "~{EN}"
 		(shape input)
 		(at 123.19 125.73 180)
 		(fields_autoplaced yes)
@@ -2098,7 +2475,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 179.07 0)
+		(at 142.24 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2107,7 +2484,7 @@
 		(fields_autoplaced yes)
 		(uuid "23ed79fb-118e-4349-8816-2ea7a035be2e")
 		(property "Reference" "#PWR0152"
-			(at 142.24 185.42 0)
+			(at 142.24 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2116,7 +2493,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.24 184.15 0)
+			(at 142.24 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2124,7 +2501,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 179.07 0)
+			(at 142.24 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2133,7 +2510,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 179.07 0)
+			(at 142.24 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2142,7 +2519,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 179.07 0)
+			(at 142.24 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2255,6 +2632,72 @@
 			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/172cdfe8-5c9e-47e3-942d-5120fbe0f65c"
 					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ca44eef-01f2-48cb-827d-e564610f4229")
+		(property "Reference" "#PWR055"
+			(at 107.95 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "544ca9c3-847e-42e1-bde5-cf0deccc376e")
+		)
+		(instances
+			(project "hw-openmower-yardforce"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/172cdfe8-5c9e-47e3-942d-5120fbe0f65c"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -2488,6 +2931,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 107.95 184.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a520726b-e77a-4ac8-a9d3-3746442573c1")
+		(property "Reference" "R24"
+			(at 109.728 183.2415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 109.728 186.0166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 109.728 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "738-RMCF0805FG10K0CT-ND"
+			(at 107.95 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RMCF0805FG10K0"
+			(at 107.95 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock_PN" "R-805-10K-.125W-1%"
+			(at 107.95 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 107.95 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C17414"
+			(at 107.95 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b1cc541-80a1-4243-8420-0e3e078d50e6")
+		)
+		(pin "2"
+			(uuid "35bb191f-35d8-4458-83cf-3fce47444b73")
+		)
+		(instances
+			(project "hw-openmower-yardforce"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/172cdfe8-5c9e-47e3-942d-5120fbe0f65c"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 142.24 132.08 270)
 		(unit 1)
@@ -2622,6 +3180,119 @@
 			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/172cdfe8-5c9e-47e3-942d-5120fbe0f65c"
 					(reference "U44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f868c190-fdfa-4288-b0ba-5e871624cc2a")
+		(property "Reference" "R25"
+			(at 115.57 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150"
+			(at 115.57 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 115.57 178.308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock_PN" "R-805-150-.125W-1%"
+			(at 115.57 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-150CRCT-ND"
+			(at 115.57 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0805FR-07150RL"
+			(at 115.57 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 115.57 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C17471"
+			(at 115.57 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0b0aee4-cede-48c7-a97e-b4a8afffca73")
+		)
+		(pin "2"
+			(uuid "bd951c53-7145-40ae-8e4b-a2b3b35403fe")
+		)
+		(instances
+			(project "hw-openmower-yardforce"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/172cdfe8-5c9e-47e3-942d-5120fbe0f65c"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -2768,6 +3439,127 @@
 			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/172cdfe8-5c9e-47e3-942d-5120fbe0f65c"
 					(reference "U42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 128.27 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffcb21c8-cb7c-44cd-8396-427284a0b753")
+		(property "Reference" "Q1"
+			(at 134.62 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 134.62 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 133.35 178.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 128.27 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 128.27 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "AP2300"
+			(at 128.27 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock_PN" "Q-AP2300"
+			(at 128.27 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "BSS138K-13DICT-ND"
+			(at 128.27 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C3040446"
+			(at 128.27 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32ede008-d520-4e9d-8198-63e54e0c6e88")
+		)
+		(pin "2"
+			(uuid "92086f89-37f8-4665-82fa-4455e7de4442")
+		)
+		(pin "3"
+			(uuid "f1fe1e7a-b92f-462b-9f7a-709545893013")
+		)
+		(instances
+			(project "hw-openmower-yardforce"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/172cdfe8-5c9e-47e3-942d-5120fbe0f65c"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
