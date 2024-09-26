@@ -1,4 +1,4 @@
-(footprint "xbot_core"
+(footprint "xcore"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -25,7 +25,7 @@
 			)
 		)
 	)
-	(property "Footprint" "xbot_core"
+	(property "Footprint" "xcore"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -3053,7 +3053,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "dbcbb908-4ddb-4861-8c05-220d65ebc931")
 	)
-	(model "${KIPRJMOD}/xbot_core.3dshapes/hw-xbot-core.step"
+	(model "${KIPRJMOD}/xcore-lib/xcore.pretty/hw-xbot-core.step"
 		(offset
 			(xyz 0.3 33.8 2.6)
 		)

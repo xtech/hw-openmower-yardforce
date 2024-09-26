@@ -4,7 +4,7 @@
   (lib (name "local_DCDC")(type "KiCad")(uri "${KIPRJMOD}/components/extern/footprints/local_DCDC.pretty")(options "")(descr ""))
   (lib (name "local_SODIMM")(type "KiCad")(uri "${KIPRJMOD}/components/extern/footprints/local_SODIMM.pretty")(options "")(descr ""))
   (lib (name "local_Connectors")(type "KiCad")(uri "${KIPRJMOD}/components/extern/footprints/local_Connectors.pretty")(options "")(descr ""))
-  (lib (name "xbot_core")(type "KiCad")(uri "${KIPRJMOD}/xbot_core.pretty")(options "")(descr ""))
+  (lib (name "xcore")(type "KiCad")(uri "${KIPRJMOD}/xcore-lib/xcore.pretty")(options "")(descr ""))
   (lib (name "xESC2")(type "KiCad")(uri "${KIPRJMOD}/components/xtech/footprints/xESC2.pretty")(options "")(descr ""))
   (lib (name "GPS")(type "KiCad")(uri "${KIPRJMOD}/components/xtech/footprints/GPS.pretty")(options "")(descr ""))
   (lib (name "xtech")(type "KiCad")(uri "${KIPRJMOD}/components/xtech/footprints/xtech.pretty")(options "")(descr ""))

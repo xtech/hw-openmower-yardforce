@@ -8,4 +8,5 @@
   (lib (name "GPS")(type "KiCad")(uri "${KIPRJMOD}/components/xtech/symbols/GPS.kicad_sym")(options "")(descr ""))
   (lib (name "xtech")(type "KiCad")(uri "${KIPRJMOD}/components/xtech/symbols/xtech.kicad_sym")(options "")(descr ""))
   (lib (name "local_CHARGER")(type "KiCad")(uri "${KIPRJMOD}/components/extern/symbols/local_CHARGER.kicad_sym")(options "")(descr ""))
+  (lib (name "xcore")(type "KiCad")(uri "${KIPRJMOD}/xcore-lib/xcore.kicad_sym")(options "")(descr ""))
 )
