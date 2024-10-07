@@ -34,7 +34,7 @@ jobs:
       - uses: INTI-CMNB/KiBot@v2_k8
         with:
           config: ".kibot.yaml"
-          board: "${{ env.BOARD_NAME }}/${{ env.BOARD_NAME }}.kicad_pcb"
+          board: "${{ env.BOARD_NAME }}.kicad_pcb"
           verbose: 1
       - uses: actions/upload-artifact@v4
         with:
@@ -53,7 +53,7 @@ jobs:
       - uses: INTI-CMNB/KiBot@v2_k8
         with:
           config: ".kibot.yaml"
-          board: "${{ env.BOARD_NAME }}/${{ env.BOARD_NAME }}.kicad_pcb"
+          board: "${{ env.BOARD_NAME }}.kicad_pcb"
 
       - name: 'Fix permissions on release/'
         run: sudo chmod 0777 release
