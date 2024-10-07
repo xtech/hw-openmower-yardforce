@@ -1,5 +1,8 @@
 name: CI
 
+env:
+  BOARD_NAME: "hw-openmower-yardforce"
+
 on:
   push:
     paths-ignore:
@@ -30,22 +33,18 @@ jobs:
           fetch-depth: 0
       - uses: INTI-CMNB/KiBot@v2_k8
         with:
-          config: .kibot.yaml
-          board: hw-openmower-yardforce.kicad_pcb
+          config: ".kibot.yaml"
+          board: "${{ env.BOARD_NAME }}/${{ env.BOARD_NAME }}.kicad_pcb"
           verbose: 1
       - uses: actions/upload-artifact@v4
         with:
-          # Name of the artifact to upload.
-          # Optional. Default is 'artifact'
-          name: hw-openmower-yardforce
-          # A file, directory or wildcard pattern that describes what to upload
-          # Required.
+          name: "${{ env.BOARD_NAME }}-${{ github.ref_name }}"  # Use the tag as the artifact name
           path: release
 
   tagged-release:
     runs-on: ubuntu-latest
     if: github.ref_type == 'tag' && startsWith(github.ref_name, 'v')
-    
+
     steps:
       - uses: actions/checkout@v4
         with:
@@ -53,26 +52,24 @@ jobs:
 
       - uses: INTI-CMNB/KiBot@v2_k8
         with:
-          config: .kibot.yaml
-          board: hw-openmower-yardforce.kicad_pcb
+          config: ".kibot.yaml"
+          board: "${{ env.BOARD_NAME }}/${{ env.BOARD_NAME }}.kicad_pcb"
 
       - name: 'Fix permissions on release/'
         run: sudo chmod 0777 release
-
+      # Zip the release directory and include the tag (version) in the filename
+      - name: Compress release directory into a versioned ZIP file
+        run: zip -r "release-${{ env.BOARD_NAME }}-${GITHUB_REF_NAME}.zip" release/*
       - uses: actions/upload-artifact@v4
         with:
-          # Name of the artifact to upload.
-          # Optional. Default is 'artifact'
-          name: hw-openmower-yardforce
-          # A file, directory or wildcard pattern that describes what to upload
-          # Required.
+          name: "release-${{ env.BOARD_NAME }}-${{ github.ref_name }}"  # Use the tag as the artifact name
           path: release
-          
+
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           prerelease: false
-          files: release
+          files: "release-${{ env.BOARD_NAME }}-${{ github.ref_name }}.zip"
 
       - name: Deploy release
         uses: peaceiris/actions-gh-pages@v4
