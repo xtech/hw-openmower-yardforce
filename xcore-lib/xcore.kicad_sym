@@ -19,7 +19,7 @@
 			)
 		)
 		(property "Value" "xcore"
-			(at -13.97 -21.082 0)
+			(at -13.97 -24.892 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66,7 +66,7 @@
 		(symbol "xcore_1_0"
 			(rectangle
 				(start -13.97 17.78)
-				(end 11.43 -19.05)
+				(end 11.43 -22.86)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -94,7 +94,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -112,7 +112,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 1.27 0)
+				(at -19.05 -3.81 0)
 				(length 5.08)
 				(name "ID_I2C.SDA"
 					(effects
@@ -130,7 +130,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -1.27 0)
+				(at -19.05 -6.35 0)
 				(length 5.08)
 				(name "ID_I2C.SCL"
 					(effects
@@ -148,7 +148,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -184,7 +184,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -202,7 +202,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -220,7 +220,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -256,7 +256,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -274,7 +274,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -310,7 +310,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -328,7 +328,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -10.16 0)
+				(at -19.05 -15.24 0)
 				(length 5.08)
 				(name "SWCLK"
 					(effects
@@ -346,7 +346,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -7.62 0)
+				(at -19.05 -12.7 0)
 				(length 5.08)
 				(name "SWDIO"
 					(effects
@@ -364,7 +364,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 -15.24 0)
+				(at -19.05 -20.32 0)
 				(length 5.08)
 				(name "CM_FAN_PWM"
 					(effects
@@ -382,7 +382,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -418,7 +418,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -436,7 +436,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -454,7 +454,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -472,7 +472,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -490,7 +490,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -508,7 +508,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -526,7 +526,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -562,7 +562,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -580,7 +580,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -598,7 +598,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -616,7 +616,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -634,7 +634,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -651,10 +651,10 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 16.51 11.43 180)
-				(length 5.08) hide
-				(name "P20"
+			(pin passive line
+				(at -19.05 7.62 0)
+				(length 5.08)
+				(name "PGOOD_5V"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -670,7 +670,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -688,7 +688,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -742,7 +742,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -760,7 +760,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -778,7 +778,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -814,7 +814,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -832,7 +832,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -850,7 +850,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -868,7 +868,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -886,7 +886,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -904,7 +904,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -922,7 +922,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -940,7 +940,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -976,7 +976,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -994,7 +994,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -1012,7 +1012,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -1030,7 +1030,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -1048,7 +1048,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -1066,7 +1066,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -1084,7 +1084,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -1102,7 +1102,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -1120,7 +1120,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -1156,7 +1156,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -1174,7 +1174,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -1192,7 +1192,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -1210,7 +1210,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -1228,7 +1228,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -1246,7 +1246,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -1264,7 +1264,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -1300,7 +1300,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -1318,7 +1318,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -1336,7 +1336,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 7.62 0)
+				(at -19.05 5.08 0)
 				(length 5.08) hide
 				(name "GND"
 					(effects
@@ -1356,7 +1356,7 @@
 		)
 		(symbol "xcore_1_1"
 			(text "Hardware ID"
-				(at -7.112 3.556 0)
+				(at -7.112 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1372,7 +1372,7 @@
 				)
 			)
 			(text "STM32 Debug"
-				(at -6.604 -5.588 0)
+				(at -6.604 -10.668 0)
 				(effects
 					(font
 						(size 1.27 1.27)
