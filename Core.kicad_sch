@@ -14466,7 +14466,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "local_SODIMM:2_2013289_1"
+		(property "Footprint" "xcore:xcore"
 			(at 88.138 91.694 0)
 			(effects
 				(font
