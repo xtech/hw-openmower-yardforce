@@ -345,6 +345,174 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -1951,6 +2119,12 @@
 		)
 	)
 	(junction
+		(at 351.79 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a7e8d35-e354-41ca-adb6-d6eaf4630213")
+	)
+	(junction
 		(at 304.8 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1967,12 +2141,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "285157bc-c8e8-4361-a2ed-107e19a4372f")
-	)
-	(junction
-		(at 351.79 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3106807d-3725-48e7-b14d-c858671d5b35")
 	)
 	(junction
 		(at 33.02 190.5)
@@ -2029,6 +2197,12 @@
 		(uuid "8577d72a-4e3e-4606-a410-bb0edc830e9c")
 	)
 	(junction
+		(at 342.9 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89f09825-06ac-45e7-b929-117dba2ad3c0")
+	)
+	(junction
 		(at 33.02 220.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2039,12 +2213,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c40a287a-0e86-488a-939e-aae8da46d89d")
-	)
-	(junction
-		(at 351.79 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c6a89951-87b8-427a-acf2-5dcfa6b034d0")
 	)
 	(junction
 		(at 297.18 105.41)
@@ -2235,7 +2403,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 64.77) (xy 351.79 67.31)
+			(xy 351.79 64.77) (xy 351.79 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2422,6 +2590,16 @@
 			(type default)
 		)
 		(uuid "1c528d09-2eb5-4b23-8b78-eac60c57a045")
+	)
+	(wire
+		(pts
+			(xy 318.77 54.61) (xy 318.77 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c8fc6f4-f27e-4ff3-a332-610af930dec5")
 	)
 	(wire
 		(pts
@@ -2615,7 +2793,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 67.31) (xy 351.79 67.31)
+			(xy 342.9 64.77) (xy 351.79 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2632,6 +2810,16 @@
 			(type default)
 		)
 		(uuid "362629ab-2daf-4b84-82e3-f61b526d0e53")
+	)
+	(wire
+		(pts
+			(xy 304.8 52.07) (xy 304.8 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37a4c77f-41fe-48e6-9902-c9858d7062ca")
 	)
 	(wire
 		(pts
@@ -2905,7 +3093,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 72.39) (xy 342.9 67.31)
+			(xy 342.9 72.39) (xy 342.9 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2942,6 +3130,16 @@
 			(type default)
 		)
 		(uuid "5cc0962d-4834-4b11-bfc0-88472f9b6c94")
+	)
+	(wire
+		(pts
+			(xy 304.8 57.15) (xy 327.66 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fd88be9-e404-43ac-a2b5-eae49676a65a")
 	)
 	(wire
 		(pts
@@ -3015,6 +3213,16 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 64.77) (xy 342.9 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cbb1193-48a8-4ec3-8bf1-53b1d11bf1ee")
+	)
+	(wire
+		(pts
 			(xy 189.23 163.83) (xy 201.93 163.83)
 		)
 		(stroke
@@ -3082,16 +3290,6 @@
 			(type default)
 		)
 		(uuid "74b8a3de-bf1b-42e5-b529-5d1ceade7bdf")
-	)
-	(wire
-		(pts
-			(xy 304.8 64.77) (xy 304.8 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7564f953-17b2-4065-b1bb-4a0b50951ae9")
 	)
 	(bus
 		(pts
@@ -3403,16 +3601,6 @@
 		)
 		(uuid "a2bfcd9d-b8c6-4154-9613-2c0122fe8214")
 	)
-	(wire
-		(pts
-			(xy 351.79 67.31) (xy 351.79 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2f6cf0c-ac8b-4ebf-b3dc-4e3f3be8c43c")
-	)
 	(bus
 		(pts
 			(xy 189.23 146.05) (xy 208.28 146.05)
@@ -3535,13 +3723,13 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 64.77) (xy 304.8 64.77)
+			(xy 327.66 54.61) (xy 318.77 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b726bf3f-d441-4764-a1b3-c4ed3686bb8d")
+		(uuid "b618cd23-8979-4ce0-8ef3-87d3a6f2cb9b")
 	)
 	(wire
 		(pts
@@ -3562,6 +3750,16 @@
 			(type default)
 		)
 		(uuid "b7d1677e-0f24-4230-8808-726dfba4a601")
+	)
+	(wire
+		(pts
+			(xy 304.8 52.07) (xy 327.66 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b854697e-fc7b-4b7a-be78-3c73e98f82ce")
 	)
 	(wire
 		(pts
@@ -5020,6 +5218,17 @@
 		)
 		(uuid "c29ac13a-7d7c-4d16-89c1-0ae4f60ff0ab")
 	)
+	(label "5V"
+		(at 304.8 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c311e867-535f-46ae-a0e7-98b317a15065")
+	)
 	(label "GPIO22"
 		(at 132.08 167.64 0)
 		(fields_autoplaced yes)
@@ -5674,6 +5883,79 @@
 			(project "hw-openmower-yardforce"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11"
 					(reference "J32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 332.74 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30343325-707d-420b-b5d9-78a63698ffd2")
+		(property "Reference" "J34"
+			(at 335.28 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 335.28 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 332.74 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 332.74 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 332.74 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9222ec4e-70f3-48c5-b368-56f857baead7")
+		)
+		(pin "2"
+			(uuid "6c04ff07-aaf8-4d17-8c8e-4a1f3dffe89c")
+		)
+		(pin "3"
+			(uuid "13c96d6a-2057-43c9-87e7-4c28344deb71")
+		)
+		(instances
+			(project "hw-openmower-yardforce"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11"
+					(reference "J34")
 					(unit 1)
 				)
 			)
