@@ -4411,6 +4411,17 @@
 		)
 		(uuid "2292bc2e-3b56-488d-aa01-d60763b5e934")
 	)
+	(label "AGPIO2"
+		(at 304.8 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23741358-17a9-4a49-b0d1-02a89e9d6796")
+	)
 	(label "AGPIO[0..5]"
 		(at 209.55 88.9 180)
 		(fields_autoplaced yes)
@@ -4597,6 +4608,17 @@
 			(justify left bottom)
 		)
 		(uuid "5bc857e5-0383-4708-8f38-b5ef83b008d2")
+	)
+	(label "AGPIO4"
+		(at 304.8 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bdbf1b2-155c-4fe6-9bd6-3fc640e28fb5")
 	)
 	(label "GPIO16"
 		(at 132.08 152.4 0)
@@ -4840,17 +4862,6 @@
 		)
 		(uuid "9b3fe97d-88c9-42a2-9fa7-7c7a6f88e45c")
 	)
-	(label "GPIO7"
-		(at 304.8 142.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a1413484-8377-4027-9af2-37d1bb69bcaa")
-	)
 	(label "UART6.RX"
 		(at 270.51 189.23 0)
 		(fields_autoplaced yes)
@@ -4982,17 +4993,6 @@
 			(justify left bottom)
 		)
 		(uuid "b915663d-6a02-40d7-bfb6-1f0675bcc97e")
-	)
-	(label "GPIO6"
-		(at 304.8 144.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bbae66ff-7dc5-4e9f-adfa-78f46e24ca68")
 	)
 	(label "GPIO4"
 		(at 248.92 38.1 0)
