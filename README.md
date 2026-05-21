@@ -1,15 +1,6 @@
 # OpenMower Mainboard for YardForce Mowers
 
 
-
-## Information
-
-This hardware version is in beta state. Expect for things to not work at the current state!
-
-If you want to build an OpenMower based on a YardForce platform, I recommend the tested v1 hardware.
-
-
-
 ## About This Repo
 
 OpenMower is an open-source project that upgrades off-the-shelf robotic mowers into modern, smart lawn mowing robots with RTK GPS technology. For more details, check out the [OpenMower project](https://github.com/clemensElflein/openmower).
