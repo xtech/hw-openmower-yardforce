@@ -9429,7 +9429,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "da456698-58f4-48d5-baf4-cf013af61285")
 		(property "Reference" "J20"
 			(at 313.69 31.75 0)
