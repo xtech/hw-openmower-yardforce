@@ -1,12 +1,14 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "ab594191-73ff-44e0-9b16-d7ac98f0a6cb")
 	(paper "A3")
 	(lib_symbols
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -79,7 +81,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -91,7 +93,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -140,9 +142,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -298,11 +303,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:D_TVS"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -370,10 +380,10 @@
 			(symbol "D_TVS_0_1"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -394,10 +404,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -443,12 +453,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -539,6 +554,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "xESC2:xESC2"
 			(exclude_from_sim no)
@@ -596,22 +612,6 @@
 						)
 					)
 				)
-				(text "Motor Sensors"
-					(at 8.89 31.75 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "Phases"
-					(at 12.7 46.99 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(text "Power In"
 					(at -16.51 46.99 0)
 					(effects
@@ -622,6 +622,22 @@
 				)
 				(text "Programming"
 					(at -13.97 29.21 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "Motor Sensors"
+					(at 8.89 31.75 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "Phases"
+					(at 12.7 46.99 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -644,16 +660,106 @@
 			)
 			(symbol "xESC2_1_1"
 				(pin input line
-					(at -24.13 -10.16 0)
+					(at -24.13 43.18 0)
 					(length 2.54)
-					(name "CAN_L"
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "VM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -24.13 39.37 0)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -24.13 35.56 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -24.13 26.67 0)
+					(length 2.54)
+					(name "3V3_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -24.13 22.86 0)
+					(length 2.54)
+					(name "SWDCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -24.13 19.05 0)
+					(length 2.54)
+					(name "SWDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -752,6 +858,24 @@
 					)
 				)
 				(pin input line
+					(at -24.13 -10.16 0)
+					(length 2.54)
+					(name "CAN_L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at -24.13 -13.97 0)
 					(length 2.54)
 					(name "CAN_H"
@@ -762,6 +886,60 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.05 44.45 180)
+					(length 2.54)
+					(name "U"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "U"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.05 40.64 180)
+					(length 2.54)
+					(name "V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.05 36.83 180)
+					(length 2.54)
+					(name "W"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "W"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -824,24 +1002,6 @@
 					)
 				)
 				(pin input line
-					(at -24.13 39.37 0)
-					(length 2.54)
-					(name "5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at 19.05 17.78 180)
 					(length 2.54)
 					(name "HALL_W"
@@ -859,151 +1019,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at -24.13 26.67 0)
-					(length 2.54)
-					(name "3V3_IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -24.13 22.86 0)
-					(length 2.54)
-					(name "SWDCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -24.13 19.05 0)
-					(length 2.54)
-					(name "SWDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -24.13 35.56 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 19.05 44.45 180)
-					(length 2.54)
-					(name "U"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "U"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 19.05 40.64 180)
-					(length 2.54)
-					(name "V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -24.13 43.18 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "VM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 19.05 36.83 180)
-					(length 2.54)
-					(name "W"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "W"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "xtech:Dummy"
 			(exclude_from_sim no)
@@ -1075,6 +1092,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -1663,7 +1681,6 @@
 	)
 	(label "HALL_SENSOR.W"
 		(at 217.17 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1674,7 +1691,6 @@
 	)
 	(label "PHASE.W"
 		(at 226.06 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1685,7 +1701,6 @@
 	)
 	(label "HALL_SENSOR.U"
 		(at 217.17 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1696,7 +1711,6 @@
 	)
 	(label "5V"
 		(at 132.08 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1707,7 +1721,6 @@
 	)
 	(label "PHASE.V"
 		(at 226.06 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1718,7 +1731,6 @@
 	)
 	(label "PHASE.U"
 		(at 226.06 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1729,7 +1741,6 @@
 	)
 	(label "VBATT"
 		(at 132.08 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1740,7 +1751,6 @@
 	)
 	(label "HALL_SENSOR.V"
 		(at 217.17 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1752,7 +1762,6 @@
 	(hierarchical_label "PHASE{U V W}"
 		(shape output)
 		(at 246.38 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1764,7 +1773,6 @@
 	(hierarchical_label "5V"
 		(shape input)
 		(at 132.08 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1776,7 +1784,6 @@
 	(hierarchical_label "RX"
 		(shape input)
 		(at 142.24 147.32 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1788,7 +1795,6 @@
 	(hierarchical_label "HALL_SENSOR{U V W}"
 		(shape input)
 		(at 246.38 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1800,7 +1806,6 @@
 	(hierarchical_label "TEMPERATURE"
 		(shape input)
 		(at 217.17 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1812,7 +1817,6 @@
 	(hierarchical_label "VBATT"
 		(shape input)
 		(at 80.01 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1824,7 +1828,6 @@
 	(hierarchical_label "SHUTDOWN"
 		(shape input)
 		(at 142.24 135.89 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1836,7 +1839,6 @@
 	(hierarchical_label "TX"
 		(shape output)
 		(at 142.24 139.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1855,7 +1857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b2a79cf-ab46-4f8f-b0aa-24517521605e")
-		(property "Reference" "U41"
+		(property "Reference" "U39"
 			(at 45.72 225.4249 0)
 			(effects
 				(font
@@ -2278,7 +2280,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0ebbdf99-84be-4f7e-8f8f-65247810af5e")
-		(property "Reference" "D17"
+		(property "Reference" "D7"
 			(at 120.65 102.8699 90)
 			(effects
 				(font
@@ -2716,7 +2718,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "14c34b73-7088-4098-ab21-7312ad3c7665")
-		(property "Reference" "U10"
+		(property "Reference" "U8"
 			(at 163.83 88.9 0)
 			(effects
 				(font
@@ -3188,7 +3190,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2b0e4d6a-78c2-483a-bf28-95187f2e29d6")
-		(property "Reference" "D20"
+		(property "Reference" "D10"
 			(at 218.44 106.68 0)
 			(effects
 				(font
@@ -3624,7 +3626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37733a49-1ca2-47c7-87e3-7ccce9a70de9")
-		(property "Reference" "U20"
+		(property "Reference" "U18"
 			(at 87.63 202.5649 0)
 			(effects
 				(font
@@ -4047,7 +4049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51388385-c9a1-40ef-8720-9e00e1918965")
-		(property "Reference" "C75"
+		(property "Reference" "C67"
 			(at 128.27 102.8699 0)
 			(effects
 				(font
@@ -4476,7 +4478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57569545-1aa6-4261-af7b-9476185a7140")
-		(property "Reference" "U38"
+		(property "Reference" "U36"
 			(at 45.72 217.8049 0)
 			(effects
 				(font
@@ -4899,7 +4901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6003b951-cdfe-4696-9db5-fa83e3dcd906")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0125"
 			(at 142.24 114.3 0)
 			(effects
 				(font
@@ -4973,7 +4975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "632150dd-3b5b-4675-b9d7-09503e830614")
-		(property "Reference" "U35"
+		(property "Reference" "U33"
 			(at 45.72 210.1849 0)
 			(effects
 				(font
@@ -5396,7 +5398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63eb369c-f839-4e8c-b015-f4de6a92be36")
-		(property "Reference" "U32"
+		(property "Reference" "U30"
 			(at 45.72 202.5649 0)
 			(effects
 				(font
@@ -5819,7 +5821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64d51ae6-bdb0-4b60-9943-9bc89f5313a4")
-		(property "Reference" "U23"
+		(property "Reference" "U21"
 			(at 87.63 210.1849 0)
 			(effects
 				(font
@@ -6242,7 +6244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74eb1fd5-4612-4c4c-b95b-6d33ff0f7098")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0122"
 			(at 106.68 114.3 0)
 			(effects
 				(font
@@ -6316,7 +6318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa44677b-d5d8-4ac7-918b-a44cfac00ef9")
-		(property "Reference" "C72"
+		(property "Reference" "C64"
 			(at 93.98 101.9809 0)
 			(effects
 				(font
@@ -6745,7 +6747,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b5e3307d-277a-45a8-af9e-d9a6c153888a")
-		(property "Reference" "D18"
+		(property "Reference" "D8"
 			(at 199.39 106.68 0)
 			(effects
 				(font
@@ -7181,7 +7183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c071a774-c18e-4259-b2fa-5610ae7910d7")
-		(property "Reference" "C74"
+		(property "Reference" "C66"
 			(at 110.49 102.8699 0)
 			(effects
 				(font
@@ -7610,7 +7612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1199382-eac3-4f1f-b6d3-d2f26f52c256")
-		(property "Reference" "C73"
+		(property "Reference" "C65"
 			(at 101.6 101.9809 0)
 			(effects
 				(font
@@ -8039,7 +8041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0ed16d5-b021-4743-b6cd-bd6b6c3c920c")
-		(property "Reference" "U26"
+		(property "Reference" "U24"
 			(at 87.63 217.8049 0)
 			(effects
 				(font
@@ -8462,7 +8464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2c83a9a-c9b1-4068-96b1-e2b95d4fcd79")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0124"
 			(at 124.46 114.3 0)
 			(effects
 				(font
@@ -8536,7 +8538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcab32c5-4971-4549-9f7b-cbc75d5be46a")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0123"
 			(at 118.11 114.3 0)
 			(effects
 				(font
@@ -8610,7 +8612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5ead340-c852-4748-a4ba-342dc9caafa8")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0121"
 			(at 90.17 114.3 0)
 			(effects
 				(font
@@ -8684,7 +8686,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f3e34280-8631-4766-826b-07c4e4a34dce")
-		(property "Reference" "D19"
+		(property "Reference" "D9"
 			(at 209.55 106.68 0)
 			(effects
 				(font
