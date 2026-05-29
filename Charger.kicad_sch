@@ -11999,7 +11999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 337.5152 132.08 0)
 			(effects
 				(font
@@ -12017,7 +12017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "4.7uF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 336.55 128.27 0)
 			(effects
 				(font
@@ -12026,7 +12026,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C29823"
+		(property "JLC" "C2991173"
 			(at 336.55 128.27 0)
 			(effects
 				(font
@@ -17446,7 +17446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 332.4352 132.08 0)
 			(effects
 				(font
@@ -17464,7 +17464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "4.7uF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 331.47 128.27 0)
 			(effects
 				(font
@@ -17473,7 +17473,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C29823"
+		(property "JLC" "C2991173"
 			(at 331.47 128.27 0)
 			(effects
 				(font
@@ -21412,7 +21412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 327.3552 132.08 0)
 			(effects
 				(font
@@ -21430,7 +21430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "4.7uF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 326.39 128.27 0)
 			(effects
 				(font
@@ -21439,7 +21439,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C29823"
+		(property "JLC" "C2991173"
 			(at 326.39 128.27 0)
 			(effects
 				(font
@@ -27485,7 +27485,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 322.2752 132.08 0)
 			(effects
 				(font
@@ -27503,7 +27503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "4.7uF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 321.31 128.27 0)
 			(effects
 				(font
@@ -27512,7 +27512,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C29823"
+		(property "JLC" "C2991173"
 			(at 321.31 128.27 0)
 			(effects
 				(font
