@@ -1,0 +1,200 @@
+name: Post PR Comment
+
+on:
+  workflow_run:
+    workflows: [CI]
+    types: [completed]
+
+permissions:
+  pull-requests: write
+  issues: write
+  contents: write
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    if: github.event.workflow_run.event == 'pull_request'
+
+    steps:
+      - name: Download PR number
+        uses: actions/download-artifact@v4
+        with:
+          name: pr-number
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path: pr-meta
+
+      - name: Download diffs
+        uses: actions/download-artifact@v4
+        with:
+          name: kibot-diffs
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path: diffs
+
+      - name: Download kibot outputs
+        uses: actions/download-artifact@v4
+        with:
+          name: kibot-outputs
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path: kibot-outputs
+
+      - name: Read PR number
+        id: pr
+        run: |
+          PR_NUM=$(cat pr-meta/pr-number.txt | tr -d '[:space:]')
+          [[ "$PR_NUM" =~ ^[0-9]+$ ]] || exit 1
+          echo "number=$PR_NUM" >> $GITHUB_OUTPUT
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+          path: repo
+
+      - name: Push diff images to gh-pages
+        run: |
+          cd repo
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          PR="${{ steps.pr.outputs.number }}"
+
+          if git ls-remote --exit-code --heads origin gh-pages > /dev/null 2>&1; then
+            git fetch origin gh-pages
+            git checkout gh-pages
+          else
+            git checkout --orphan gh-pages
+            git rm -rf . || true
+          fi
+
+          mkdir -p "ci-diffs/pr-${PR}/sch" "ci-diffs/pr-${PR}/pcb" "ci-diffs/pr-${PR}/pcb_no_fills" "ci-diffs/pr-${PR}/renders"
+          cp "${{ github.workspace }}/diffs/sch/"*.png          "ci-diffs/pr-${PR}/sch/"         2>/dev/null || true
+          cp "${{ github.workspace }}/diffs/pcb/"*.png          "ci-diffs/pr-${PR}/pcb/"         2>/dev/null || true
+          cp "${{ github.workspace }}/diffs/pcb_no_fills/"*.png "ci-diffs/pr-${PR}/pcb_no_fills/" 2>/dev/null || true
+          cp "${{ github.workspace }}/kibot-outputs/hw-openmower-yardforce/hw-openmower-yardforce-3D_top.png"  "ci-diffs/pr-${PR}/renders/" 2>/dev/null || true
+          cp "${{ github.workspace }}/kibot-outputs/hw-openmower-yardforce/hw-openmower-yardforce-top.svg"     "ci-diffs/pr-${PR}/renders/" 2>/dev/null || true
+          cp "${{ github.workspace }}/kibot-outputs/hw-openmower-yardforce/hw-openmower-yardforce-bottom.svg"  "ci-diffs/pr-${PR}/renders/" 2>/dev/null || true
+
+          git add "ci-diffs/pr-${PR}/"
+          git diff --cached --quiet || git commit -m "CI: diff images for PR ${PR}"
+          git push origin gh-pages
+
+      - name: Post diff comment on PR
+        uses: actions/github-script@v7
+        env:
+          DIFFS_PATH: ${{ github.workspace }}/diffs
+          RENDERS_PATH: ${{ github.workspace }}/kibot-outputs
+          PR_NUMBER: ${{ steps.pr.outputs.number }}
+          RUN_ID: ${{ github.event.workflow_run.id }}
+        with:
+          script: |
+            const fs   = require('fs');
+            const path = require('path');
+
+            const prNumber   = parseInt(process.env.PR_NUMBER, 10);
+            const diffsPath  = process.env.DIFFS_PATH;
+            const rendersPath = process.env.RENDERS_PATH;
+            const runId      = process.env.RUN_ID;
+            const owner      = context.repo.owner;
+            const repo       = context.repo.repo;
+            const baseUrl    = `https://${owner}.github.io/${repo}/ci-diffs/pr-${prNumber}`;
+            const runUrl     = `https://github.com/${owner}/${repo}/actions/runs/${runId}`;
+
+            function imageList(subdir, title) {
+              const dir = path.join(diffsPath, subdir);
+              const noChanges = `<details>\n<summary>${title}</summary>\n\n_No changes._\n\n</details>`;
+              if (!fs.existsSync(dir)) return noChanges;
+              const pngs = fs.readdirSync(dir).filter(f => f.endsWith('.png')).sort();
+              if (pngs.length === 0) return noChanges;
+              const images = pngs.map(f => `![${f}](${baseUrl}/${subdir}/${encodeURIComponent(f)})`).join('\n\n');
+              return `<details>\n<summary>${title}</summary>\n\n${images}\n\n</details>`;
+            }
+
+            // Artifact download links
+            let diffsLink   = runUrl;
+            let outputsLink = runUrl;
+            try {
+              const { data: { artifacts } } = await github.rest.actions.listWorkflowRunArtifacts({
+                owner, repo, run_id: parseInt(runId, 10),
+              });
+              const da = artifacts.find(a => a.name === 'kibot-diffs');
+              const oa = artifacts.find(a => a.name === 'kibot-outputs');
+              if (da) diffsLink   = `https://github.com/${owner}/${repo}/actions/runs/${runId}/artifacts/${da.id}`;
+              if (oa) outputsLink = `https://github.com/${owner}/${repo}/actions/runs/${runId}/artifacts/${oa.id}`;
+            } catch (e) {}
+
+            // Renderings section
+            const rendersBase = `${baseUrl}/renders`;
+            const renderLines = [];
+            const rendersSubdir = 'hw-openmower-yardforce';
+            if (fs.existsSync(path.join(rendersPath, rendersSubdir, 'hw-openmower-yardforce-3D_top.png'))) {
+              renderLines.push(`![3D top](${rendersBase}/hw-openmower-yardforce-3D_top.png)`);
+            }
+            const svgLinks = [];
+            for (const [file, label] of [['hw-openmower-yardforce-top.svg', 'Top'], ['hw-openmower-yardforce-bottom.svg', 'Bottom']]) {
+              if (fs.existsSync(path.join(rendersPath, rendersSubdir, file))) {
+                svgLinks.push(`[PCB ${label}](${rendersBase}/${file})`);
+              }
+            }
+            if (svgLinks.length) renderLines.push(svgLinks.join(' | '));
+            const rendersSection = renderLines.length ? renderLines.join('\n\n') : '_No renders available._';
+
+            let bomSection = '_No BOM changes._';
+            try {
+              const bomDiff = fs.readFileSync(path.join(diffsPath, 'bom_diff.txt'), 'utf8').trim();
+              if (bomDiff) {
+                bomSection = `<details>\n<summary>Show BOM diff</summary>\n\n\`\`\`diff\n${bomDiff}\n\`\`\`\n</details>`;
+              }
+            } catch (e) {}
+
+            const marker = '<!-- kibot-diff-comment -->';
+            const body = [
+              marker,
+              '## KiBot Diff vs `main`',
+              '',
+              '### Renderings',
+              rendersSection,
+              '',
+              '### Schematic diff',
+              imageList('sch', 'Show schematic diff'),
+              '',
+              '### PCB diff (with copper fills)',
+              imageList('pcb', 'Show PCB diff (with copper fills)'),
+              '',
+              '### PCB diff (without copper fills)',
+              imageList('pcb_no_fills', 'Show PCB diff (without copper fills)'),
+              '',
+              '---',
+              '',
+              '### BOM',
+              bomSection,
+              '',
+              '---',
+              '',
+              `📦 [Download diffs](${diffsLink}) | [Download build outputs](${outputsLink})`,
+            ].join('\n');
+
+            const { data: comments } = await github.rest.issues.listComments({
+              owner,
+              repo,
+              issue_number: prNumber,
+            });
+            const existing = comments.find(c => c.body.includes(marker));
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner,
+                repo,
+                comment_id: existing.id,
+                body,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner,
+                repo,
+                issue_number: prNumber,
+                body,
+              });
+            }

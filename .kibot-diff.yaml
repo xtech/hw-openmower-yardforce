@@ -1,0 +1,38 @@
+kibot:
+  version: 1
+
+outputs:
+  - name: 'diff_sch'
+    comment: 'Schematic diff vs main'
+    type: 'diff'
+    dir: 'diff/sch'
+    options:
+      old: 'origin/main'
+      old_type: git
+      new_type: git
+      pcb: false
+      only_different: true
+
+  - name: 'diff_pcb'
+    comment: 'PCB diff vs main'
+    type: 'diff'
+    dir: 'diff/pcb'
+    options:
+      old: 'origin/main'
+      old_type: git
+      new_type: git
+      pcb: true
+      only_different: true
+
+  - name: 'diff_pcb_no_zones'
+    comment: 'PCB diff vs main (zones hidden)'
+    type: 'diff'
+    dir: 'diff/pcb_no_fills'
+    options:
+      old: 'origin/main'
+      old_type: git
+      new_type: git
+      pcb: true
+      only_different: true
+      zones: 'unfill'
+      cache_dir: 'cache_no_zones'
