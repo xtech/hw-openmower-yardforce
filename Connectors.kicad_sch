@@ -9252,7 +9252,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_A_Wuerth_61400826021_Horizontal_Stacked"
+		(property "Footprint" "nlbn:USB-269-BRW_C720548_MOD"
 			(at 71.12 201.93 0)
 			(effects
 				(font
