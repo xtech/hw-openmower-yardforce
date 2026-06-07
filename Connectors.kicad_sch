@@ -2310,7 +2310,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 81.28) (xy 234.95 96.52)
+			(xy 234.95 81.28) (xy 234.95 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3881,7 +3881,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "123ba7f3-b1f1-4905-aa67-524ba9a5af23")
 		(property "Reference" "J23"
@@ -4460,7 +4460,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 234.95 96.52 0)
+		(at 234.95 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4469,7 +4469,7 @@
 		(fields_autoplaced yes)
 		(uuid "143a3394-dd8c-47b8-b293-66ca328383be")
 		(property "Reference" "#PWR035"
-			(at 234.95 102.87 0)
+			(at 234.95 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4478,7 +4478,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 101.6 0)
+			(at 234.95 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4486,7 +4486,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 96.52 0)
+			(at 234.95 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4495,7 +4495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 96.52 0)
+			(at 234.95 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4504,7 +4504,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 96.52 0)
+			(at 234.95 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7256,7 +7256,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5dd67229-3fbc-4b61-bdfc-4c0e422bd0fa")
@@ -7840,8 +7840,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6e375a2d-3019-4c76-af3f-2790731f6d88")
 		(property "Reference" "R9"
@@ -11350,8 +11350,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ac23a550-9395-4e97-8fc2-2b5189838e71")
 		(property "Reference" "C21"
@@ -11904,8 +11904,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b4b044a7-ae9c-4d2b-8c10-122dae3e6814")
 		(property "Reference" "R10"

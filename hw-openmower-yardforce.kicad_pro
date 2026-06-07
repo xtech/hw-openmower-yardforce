@@ -60,10 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|74330000|141405000|0e498e3c-c172-4253-ab80-b04aa3ac8cab|6907c20b-dc40-4107-8f6e-9d915ad50eb3",
-          ""
-        ],
-        [
           "starved_thermal|151860000|101350000|76d414fb-353e-49e2-9160-8c5536202d44|07bbc56f-3f48-470c-bc33-505eab7286d2|In2.Cu",
           ""
         ],
@@ -1045,6 +1041,12 @@
           "group_by": false,
           "label": "Mouser Price/Stock",
           "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
           "show": false
         }
       ],
