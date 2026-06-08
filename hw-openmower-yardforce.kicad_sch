@@ -12354,7 +12354,7 @@
 				(justify right)
 			)
 		)
-		(pin "BTN_HOME_OEM" output
+		(pin "BTN_HOME" output
 			(at 72.39 170.18 180)
 			(uuid "61ffb2cb-25c5-4392-beca-0b30d46abcf9")
 			(effects
@@ -12364,7 +12364,7 @@
 				(justify left)
 			)
 		)
-		(pin "BTN_PLAY_OEM" output
+		(pin "BTN_PLAY" output
 			(at 72.39 167.64 180)
 			(uuid "d6468482-3733-4355-ae61-c547ba36002e")
 			(effects
