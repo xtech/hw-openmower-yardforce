@@ -1,0 +1,123 @@
+(footprint "Tag-Connect_TC2050-guidance"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2050-IDC-430%20Datasheet.pdf")
+	(tags "tag connect programming header pogo pins")
+	(property "Reference" "REF**"
+		(at 0 5 0)
+		(layer "F.SilkS")
+		(uuid "67831e92-1b2c-4103-9ca2-1fdecd5f342c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Tag-Connect_TC2050-guidance"
+		(at 0 -4.8 0)
+		(layer "F.Fab")
+		(uuid "73b0487c-a754-46c9-9673-1e71f3a935e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd7f560d-d18c-49ca-9479-ff069474eb69")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef1be474-9f0c-4110-b459-e3abc80423e2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center -3.81 -0.01)
+		(end -3.21 -0.01)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "94573ca9-2bf9-4faf-b36a-e5114fcf79c1")
+	)
+	(fp_circle
+		(center 3.81 -1.02)
+		(end 4.41 -1.02)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2eeea92c-a40e-42d5-8e14-158683fa8215")
+	)
+	(fp_circle
+		(center 3.81 1.02)
+		(end 4.41 1.02)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "7bbbef9e-ad05-4f75-a77e-ad85c5612b67")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "fa6fe3aa-3e88-4ba4-a75a-5e1d7c8bc51d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -3.81 0)
+		(size 1.1 1.1)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "62c8944b-b41a-45e4-bed4-408433cbeadc")
+	)
+	(pad "" np_thru_hole circle
+		(at 3.81 -1.016)
+		(size 1.1 1.1)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "5a75b810-5c93-41cf-a83b-e4e8a06f104c")
+	)
+	(pad "" np_thru_hole circle
+		(at 3.81 1.016)
+		(size 1.1 1.1)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "00e013d4-ae5b-44fd-b859-cdd501114bed")
+	)
+	(embedded_fonts no)
+)
