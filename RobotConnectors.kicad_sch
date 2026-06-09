@@ -6284,6 +6284,26 @@
 		)
 		(uuid "00fc2651-8a0e-422d-915f-1892401e0453")
 	)
+	(text "Hall3 (Lift Left)"
+		(exclude_from_sim no)
+		(at 302.768 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "037b2882-179e-422a-ac04-7fa1700cc725")
+	)
+	(text "Hall2 (Lift Right)"
+		(exclude_from_sim no)
+		(at 302.006 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "09237a41-04ed-4fb2-bd3d-d5a09ca83d00")
+	)
 	(text "3 = Gets switched to 7 externally"
 		(exclude_from_sim no)
 		(at 17.018 80.518 0)
@@ -6328,6 +6348,16 @@
 		)
 		(uuid "29ceb006-b6ef-4b01-94e3-d99db309045a")
 	)
+	(text "Rear Stop Switch 2"
+		(exclude_from_sim no)
+		(at 351.282 236.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3d2363bf-787b-4bbb-bc47-7ed81b09076a")
+	)
 	(text "4 = Yellow Battery Cable\n    (for temperature measurement)"
 		(exclude_from_sim no)
 		(at 17.018 85.598 0)
@@ -6350,6 +6380,16 @@
 		)
 		(uuid "42af3ca4-e67a-433e-95f4-c97be320c67f")
 	)
+	(text "Hall0 (Stop2)"
+		(exclude_from_sim no)
+		(at 303.784 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6ed3c98d-e50e-4f83-a431-abc47d64c376")
+	)
 	(text "5 = C+ Battery Charging Voltage.\n   (Switched externally)"
 		(exclude_from_sim no)
 		(at 17.018 89.408 0)
@@ -6360,6 +6400,16 @@
 			(justify left bottom)
 		)
 		(uuid "70cb2a64-c1d4-4768-9dc8-e455b6e4b72c")
+	)
+	(text "Hall4 (Lift Right 2)"
+		(exclude_from_sim no)
+		(at 300.99 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "73a94828-276d-4176-9bc5-846ef5bb6296")
 	)
 	(text "1 = P+ (Battery Voltage Always On)"
 		(exclude_from_sim no)
@@ -6382,6 +6432,16 @@
 		)
 		(uuid "8509e006-28e7-4596-aea2-8186841fe04b")
 	)
+	(text "Rear Stop Switch 1"
+		(exclude_from_sim no)
+		(at 351.028 227.584 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "967fa7d9-4d3d-48ea-b495-0c9e50de1efe")
+	)
 	(text "Hall"
 		(exclude_from_sim no)
 		(at 290.576 81.026 0)
@@ -6393,6 +6453,46 @@
 			)
 		)
 		(uuid "a6ab1302-03eb-4648-b07f-854d9a7e8314")
+	)
+	(text "Hall5 (Lift Left 2)"
+		(exclude_from_sim no)
+		(at 301.498 185.928 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a86e3cf7-2c77-40f8-bedd-46c62d4fe7c8")
+	)
+	(text "2A F"
+		(exclude_from_sim no)
+		(at 46.99 38.608 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b6fc9516-725f-42b2-9ed5-37236a1f90a7")
+	)
+	(text "2.5A M"
+		(exclude_from_sim no)
+		(at 82.55 89.408 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d0f47119-ba1b-4359-afd1-579e48ea0b6f")
+	)
+	(text "Hall1 (Stop1)"
+		(exclude_from_sim no)
+		(at 303.784 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f8c41801-fd12-4500-bc6d-8cbc8b71ae77")
 	)
 	(junction
 		(at 205.74 199.39)
@@ -13343,7 +13443,7 @@
 		(dnp no)
 		(uuid "0499aa6a-83c6-4f4e-853c-c63f39baaccc")
 		(property "Reference" "J9"
-			(at 310.4388 191.3128 0)
+			(at 310.388 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13351,8 +13451,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Hall4 (Lift Right 2)"
-			(at 310.4388 193.6242 0)
+		(property "Value" "Conn_01x03_Pin"
+			(at 310.388 192.8114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15474,7 +15574,7 @@
 		(dnp no)
 		(uuid "1482e125-4535-409a-b894-49d0c0937bab")
 		(property "Reference" "J8"
-			(at 310.4388 181.1528 0)
+			(at 310.134 180.3146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15482,8 +15582,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Hall5 (Lift Left 2)"
-			(at 310.4388 183.4642 0)
+		(property "Value" "Conn_01x03_Pin"
+			(at 310.134 182.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19236,7 +19336,7 @@
 		(dnp no)
 		(uuid "3604c5d7-4eaf-4745-ae51-85c3134e6397")
 		(property "Reference" "J13"
-			(at 310.4388 108.7628 0)
+			(at 310.388 108.1786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19244,8 +19344,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Hall2 (Lift Right)"
-			(at 310.4388 111.0742 0)
+		(property "Value" "Conn_01x03_Pin"
+			(at 310.388 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20133,7 +20233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 86.0552 45.72 0)
 			(effects
 				(font
@@ -20160,7 +20260,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C307331"
+		(property "JLC" "C14663"
 			(at 85.09 41.91 0)
 			(effects
 				(font
@@ -22091,7 +22191,7 @@
 		(dnp no)
 		(uuid "4def3e2e-6eee-4654-9909-a04639b70716")
 		(property "Reference" "J12"
-			(at 310.4388 98.6028 0)
+			(at 310.388 98.0186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22099,8 +22199,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Hall3 (Lift Left)"
-			(at 310.4388 100.9142 0)
+		(property "Value" "Conn_01x03_Pin"
+			(at 310.388 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23956,7 +24056,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 363.22 93.6752 0)
 			(effects
 				(font
@@ -23983,7 +24083,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C307331"
+		(property "JLC" "C14663"
 			(at 367.03 92.71 0)
 			(effects
 				(font
@@ -24368,7 +24468,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF@50V"
 			(at 62.23 185.4199 0)
 			(effects
 				(font
@@ -24377,7 +24477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 59.3852 187.96 0)
 			(effects
 				(font
@@ -24404,7 +24504,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C307331"
+		(property "JLC" "C14663"
 			(at 58.42 184.15 0)
 			(effects
 				(font
@@ -26352,7 +26452,7 @@
 		(at 82.55 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "62d0829c-a204-4dcf-a8c0-0c3f59b9b504")
@@ -26372,7 +26472,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MyModules:Fuseholder5x20_horiz_open_inline_Type-I"
+		(property "Footprint" "xtech:Fuseholder5x20_horiz_open_inline_XF-003"
 			(at 82.55 88.138 90)
 			(effects
 				(font
@@ -27237,7 +27337,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 68.58 248.6152 0)
 			(effects
 				(font
@@ -27264,7 +27364,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C307331"
+		(property "JLC" "C14663"
 			(at 72.39 247.65 0)
 			(effects
 				(font
@@ -29365,7 +29465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 130.5052 45.72 0)
 			(effects
 				(font
@@ -29392,7 +29492,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C1546"
+		(property "JLC" "C14858"
 			(at 129.54 41.91 0)
 			(effects
 				(font
@@ -30916,15 +31016,15 @@
 		(dnp no)
 		(uuid "7ef6e00e-b5fc-4afb-b50b-05d7b760a595")
 		(property "Reference" "J27"
-			(at 351.79 233.172 0)
+			(at 358.648 232.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Rear Stop Switch 2"
-			(at 351.79 235.712 0)
+		(property "Value" "Conn_01x02_Pin"
+			(at 352.552 233.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32074,6 +32174,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x14, script generated"
+			(at 384.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C2905420"
 			(at 384.81 43.18 0)
 			(effects
 				(font
@@ -34483,7 +34592,7 @@
 		(dnp no)
 		(uuid "9b2ee544-733c-41de-88de-8a55c99af5aa")
 		(property "Reference" "J15"
-			(at 310.4388 129.0828 0)
+			(at 310.388 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34491,8 +34600,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Hall0 (Stop2)"
-			(at 310.4388 131.3942 0)
+		(property "Value" "Conn_01x03_Pin"
+			(at 310.388 130.5814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35377,7 +35486,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 26.67 221.9452 0)
 			(effects
 				(font
@@ -35404,7 +35513,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C307331"
+		(property "JLC" "C14663"
 			(at 30.48 220.98 0)
 			(effects
 				(font
@@ -36057,7 +36166,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 96.52 33.782 90)
 			(effects
 				(font
@@ -36084,7 +36193,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C5455470"
+		(property "JLC" "C705768"
 			(at 96.52 35.56 0)
 			(effects
 				(font
@@ -36542,7 +36651,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 179.07 177.4952 0)
 			(effects
 				(font
@@ -36569,7 +36678,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C307331"
+		(property "JLC" "C14663"
 			(at 182.88 176.53 0)
 			(effects
 				(font
@@ -37380,7 +37489,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 186.69 223.8248 0)
 			(effects
 				(font
@@ -37407,7 +37516,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C307331"
+		(property "JLC" "C14663"
 			(at 182.88 224.79 0)
 			(effects
 				(font
@@ -38633,7 +38742,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 363.22 160.9852 0)
 			(effects
 				(font
@@ -38660,7 +38769,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C307331"
+		(property "JLC" "C14663"
 			(at 367.03 160.02 0)
 			(effects
 				(font
@@ -39960,7 +40069,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 107.188 41.91 90)
 			(effects
 				(font
@@ -39987,7 +40096,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C852706"
+		(property "JLC" "C318131"
 			(at 105.41 41.91 0)
 			(effects
 				(font
@@ -40550,7 +40659,7 @@
 		(dnp no)
 		(uuid "c540fef5-6863-463e-99ff-99641fac9d9e")
 		(property "Reference" "J14"
-			(at 310.4388 118.9228 0)
+			(at 310.388 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40558,8 +40667,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Hall1 (Stop1)"
-			(at 310.4388 121.2342 0)
+		(property "Value" "Conn_01x03_Pin"
+			(at 310.388 120.6754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42275,7 +42384,7 @@
 		(at 46.99 35.56 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -42296,7 +42405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MyModules:Fuseholder5x20_horiz_open_inline_Type-I"
+		(property "Footprint" "xtech:Fuseholder5x20_horiz_open_inline_XF-003"
 			(at 46.99 33.782 90)
 			(effects
 				(font
@@ -44598,10 +44707,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e47fbd18-f24e-42dd-a199-350ba1f3b532")
 		(property "Reference" "J7"
-			(at 267.97 220.9799 0)
+			(at 263.144 202.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44609,8 +44717,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "USS 1-5"
-			(at 267.97 223.5199 0)
+		(property "Value" "Conn_01x12_Socket"
+			(at 263.144 204.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44637,6 +44745,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x12, script generated"
+			(at 266.7 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C5224029"
 			(at 266.7 220.98 0)
 			(effects
 				(font
@@ -44700,15 +44817,15 @@
 		(dnp no)
 		(uuid "e53f4b10-1e7b-4b48-aeb9-0ef1b34606ea")
 		(property "Reference" "J40"
-			(at 351.79 224.536 0)
+			(at 358.648 223.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Rear Stop Switch 1"
-			(at 351.79 227.076 0)
+		(property "Value" "Conn_01x02_Pin"
+			(at 352.298 225.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47590,7 +47707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 262.5852 57.15 0)
 			(effects
 				(font
@@ -47617,7 +47734,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C307331"
+		(property "JLC" "C14663"
 			(at 261.62 53.34 0)
 			(effects
 				(font

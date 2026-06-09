@@ -1934,7 +1934,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 130.81) (xy 204.47 133.35)
+			(xy 200.66 130.81) (xy 200.66 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2134,7 +2134,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 130.81) (xy 204.47 130.81)
+			(xy 195.58 130.81) (xy 200.66 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2441,6 +2441,16 @@
 			(type default)
 		)
 		(uuid "ddce066c-a28c-437d-95ea-9492129bb517")
+	)
+	(wire
+		(pts
+			(xy 200.66 133.35) (xy 204.47 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9b58375-ef04-43f0-ba9e-66775c7c4194")
 	)
 	(wire
 		(pts
@@ -3594,7 +3604,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF@50V"
 			(at 326.39 133.3499 0)
 			(effects
 				(font
@@ -3603,7 +3613,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 331.1652 128.27 0)
 			(effects
 				(font
@@ -3630,7 +3640,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C307331"
+		(property "JLC" "C14663"
 			(at 330.2 132.08 0)
 			(effects
 				(font
@@ -5942,7 +5952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 234.442 157.48 90)
 			(effects
 				(font
@@ -5969,7 +5979,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C153306"
+		(property "JLC" "C2828637"
 			(at 236.22 157.48 0)
 			(effects
 				(font
@@ -8167,10 +8177,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "78ff77aa-6526-46c4-9ff8-34e358a5eb4e")
 		(property "Reference" "C29"
-			(at 208.28 125.73 90)
+			(at 215.392 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8178,7 +8187,7 @@
 			)
 		)
 		(property "Value" "470nF@50V"
-			(at 208.28 128.27 90)
+			(at 215.392 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11110,7 +11119,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF@50V"
 			(at 314.96 133.3499 0)
 			(effects
 				(font
@@ -11119,7 +11128,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 319.7352 128.27 0)
 			(effects
 				(font
@@ -11146,7 +11155,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C307331"
+		(property "JLC" "C14663"
 			(at 318.77 132.08 0)
 			(effects
 				(font
@@ -13355,7 +13364,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 234.442 144.78 90)
 			(effects
 				(font
@@ -13382,7 +13391,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C149504"
+		(property "JLC" "C122538"
 			(at 236.22 144.78 0)
 			(effects
 				(font

@@ -6690,7 +6690,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 67.31 126.6952 0)
 			(effects
 				(font
@@ -6717,7 +6717,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C307331"
+		(property "JLC" "C14663"
 			(at 71.12 125.73 0)
 			(effects
 				(font

@@ -20558,9 +20558,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c1fd0dbe-0d17-4ad5-9fd4-7cbb9f9e6908")
 		(property "Reference" "TP1"
 			(at 162.56 259.0801 90)
@@ -20992,7 +20992,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 108.712 175.26 90)
 			(effects
 				(font
@@ -21019,7 +21019,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C25744"
+		(property "JLC" "C25804"
 			(at 110.49 175.26 0)
 			(effects
 				(font
@@ -26156,7 +26156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 90.932 161.29 90)
 			(effects
 				(font
@@ -26183,7 +26183,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C25741"
+		(property "JLC" "C25803"
 			(at 92.71 161.29 0)
 			(effects
 				(font

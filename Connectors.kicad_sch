@@ -5807,7 +5807,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 95.25 167.3352 0)
 			(effects
 				(font
@@ -5834,7 +5834,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C307331"
+		(property "JLC" "C14663"
 			(at 99.06 166.37 0)
 			(effects
 				(font
@@ -6790,7 +6790,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 53.34 140.6652 0)
 			(effects
 				(font
@@ -6817,7 +6817,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C307331"
+		(property "JLC" "C14663"
 			(at 57.15 139.7 0)
 			(effects
 				(font
@@ -9693,7 +9693,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 234.95 198.4248 0)
 			(effects
 				(font
@@ -9720,7 +9720,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C307331"
+		(property "JLC" "C14663"
 			(at 231.14 199.39 0)
 			(effects
 				(font
@@ -10532,7 +10532,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 234.95 110.7948 0)
 			(effects
 				(font
@@ -10559,7 +10559,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C307331"
+		(property "JLC" "C14663"
 			(at 231.14 111.76 0)
 			(effects
 				(font

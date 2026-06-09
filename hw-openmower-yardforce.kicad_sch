@@ -5875,7 +5875,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03"
+		(property "Value" "Conn_01x03_Pin"
 			(at 335.28 55.8799 0)
 			(effects
 				(font
@@ -5903,6 +5903,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 332.74 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C2937625"
 			(at 332.74 54.61 0)
 			(effects
 				(font
@@ -5982,7 +5991,7 @@
 				(hide yes)
 			)
 		)
-		(property "APPLICATION" ""
+		(property "JLC" "C2937625"
 			(at 365.76 193.04 0)
 			(effects
 				(font

@@ -20123,7 +20123,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF@50V"
 			(at 27.94 245.1099 0)
 			(effects
 				(font
@@ -20132,7 +20132,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 25.0952 247.65 0)
 			(effects
 				(font
@@ -20159,7 +20159,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C307331"
+		(property "JLC" "C14663"
 			(at 24.13 243.84 0)
 			(effects
 				(font
