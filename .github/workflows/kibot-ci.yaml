@@ -31,14 +31,19 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - uses: INTI-CMNB/KiBot@v2_k8
+      - uses: INTI-CMNB/KiBot@v2_k9
         with:
           config: ".kibot.yaml"
           board: "${{ env.BOARD_NAME }}.kicad_pcb"
           verbose: 1
+      - name: Sanitize artifact name
+        id: artifact
+        env:
+          REF: ${{ github.head_ref || github.ref_name }}
+        run: echo "name=${BOARD_NAME}-${REF//\//-}" >> "$GITHUB_OUTPUT"
       - uses: actions/upload-artifact@v4
         with:
-          name: "${{ env.BOARD_NAME }}-${{ github.ref_name }}"  # Use the tag as the artifact name
+          name: "${{ steps.artifact.outputs.name }}"
           path: release
 
   tagged-release:
@@ -50,7 +55,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: INTI-CMNB/KiBot@v2_k8
+      - uses: INTI-CMNB/KiBot@v2_k9
         with:
           config: ".kibot.yaml"
           board: "${{ env.BOARD_NAME }}.kicad_pcb"

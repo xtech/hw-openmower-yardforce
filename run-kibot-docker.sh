@@ -9,4 +9,4 @@ docker run \
         --workdir /project \
 	-it \
 	-v $(pwd):/project \
-	ghcr.io/inti-cmnb/kicad8_auto:1.6.5 kibot -c .kibot.yaml
+	ghcr.io/inti-cmnb/kicad9_auto:1.8.5 kibot -c .kibot.yaml
