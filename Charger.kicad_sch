@@ -9187,7 +9187,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 250.952 262.89 90)
 			(effects
 				(font
@@ -9214,7 +9214,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C25744"
+		(property "JLC" "C25804"
 			(at 252.73 262.89 0)
 			(effects
 				(font
@@ -10170,7 +10170,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 399.542 128.27 90)
 			(effects
 				(font
@@ -10197,7 +10197,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C25077"
+		(property "JLC" "C22859"
 			(at 401.32 128.27 0)
 			(effects
 				(font
@@ -15214,7 +15214,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 235.712 262.89 90)
 			(effects
 				(font
@@ -15241,7 +15241,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C25744"
+		(property "JLC" "C25804"
 			(at 237.49 262.89 0)
 			(effects
 				(font
@@ -18354,7 +18354,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 243.332 262.89 90)
 			(effects
 				(font
@@ -18381,7 +18381,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C25744"
+		(property "JLC" "C25804"
 			(at 245.11 262.89 0)
 			(effects
 				(font
@@ -23091,7 +23091,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 370.332 128.27 90)
 			(effects
 				(font
@@ -23118,7 +23118,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C25077"
+		(property "JLC" "C22859"
 			(at 372.11 128.27 0)
 			(effects
 				(font
