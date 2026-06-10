@@ -14089,7 +14089,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C601981"
+		(property "JLC" "C3406"
 			(at 307.34 46.99 0)
 			(effects
 				(font
@@ -17132,7 +17132,7 @@
 				(hide yes)
 			)
 		)
-		(property "APPLICATION" ""
+		(property "FT Rotation Offset" "180"
 			(at 189.23 124.46 0)
 			(effects
 				(font
@@ -17597,7 +17597,7 @@
 				(hide yes)
 			)
 		)
-		(property "APPLICATION" ""
+		(property "FT Rotation Offset" "180"
 			(at 50.8 130.81 0)
 			(effects
 				(font
@@ -18547,7 +18547,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C206977"
+		(property "JLC" "C717027"
 			(at 179.07 -20.32 0)
 			(effects
 				(font
@@ -21820,7 +21820,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C206977"
+		(property "JLC" "C717027"
 			(at 179.07 -2.54 0)
 			(effects
 				(font
@@ -25484,7 +25484,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C206977"
+		(property "JLC" "C717027"
 			(at 179.07 -11.43 0)
 			(effects
 				(font
@@ -28668,7 +28668,7 @@
 				(hide yes)
 			)
 		)
-		(property "APPLICATION" ""
+		(property "FT Rotation Offset" "180"
 			(at 88.9 180.34 0)
 			(effects
 				(font
@@ -32191,6 +32191,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "90"
+			(at 384.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6f3be093-4000-4d96-83d3-a743cd2ed437")
 		)
@@ -33601,7 +33610,7 @@
 				(hide yes)
 			)
 		)
-		(property "APPLICATION" ""
+		(property "FT Rotation Offset" "90"
 			(at 49.53 223.52 0)
 			(effects
 				(font
@@ -37937,7 +37946,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C206977"
+		(property "JLC" "C717027"
 			(at 179.07 -29.21 0)
 			(effects
 				(font
@@ -39262,7 +39271,7 @@
 				(hide yes)
 			)
 		)
-		(property "APPLICATION" ""
+		(property "FT Rotation Offset" "180"
 			(at 45.72 264.16 0)
 			(effects
 				(font
@@ -43324,7 +43333,7 @@
 				(hide yes)
 			)
 		)
-		(property "APPLICATION" ""
+		(property "FT Rotation Offset" "180"
 			(at 189.23 142.24 0)
 			(effects
 				(font
@@ -44762,6 +44771,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "90"
+			(at 266.7 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c4d17cc-a4d7-463d-a0d0-eb65d6815b23")
 		)
@@ -44992,7 +45010,7 @@
 				(hide yes)
 			)
 		)
-		(property "APPLICATION" ""
+		(property "FT Rotation Offset" "180"
 			(at 48.26 162.56 0)
 			(effects
 				(font

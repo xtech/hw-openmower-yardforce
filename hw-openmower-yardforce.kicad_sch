@@ -5457,7 +5457,7 @@
 				(hide yes)
 			)
 		)
-		(property "APPLICATION" ""
+		(property "FT Rotation Offset" "90"
 			(at 326.39 137.16 0)
 			(effects
 				(font
@@ -5920,6 +5920,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "90"
+			(at 332.74 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9222ec4e-70f3-48c5-b368-56f857baead7")
 		)
@@ -6000,7 +6009,7 @@
 				(hide yes)
 			)
 		)
-		(property "CASE" ""
+		(property "FT Rotation Offset" "90"
 			(at 365.76 193.04 0)
 			(effects
 				(font
@@ -6897,7 +6906,7 @@
 				(hide yes)
 			)
 		)
-		(property "APPLICATION" ""
+		(property "FT Rotation Offset" "90"
 			(at 297.18 77.47 0)
 			(effects
 				(font
@@ -10465,7 +10474,7 @@
 				(hide yes)
 			)
 		)
-		(property "APPLICATION" ""
+		(property "FT Rotation Offset" "180"
 			(at 386.08 91.44 0)
 			(effects
 				(font

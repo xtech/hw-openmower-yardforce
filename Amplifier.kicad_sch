@@ -1454,7 +1454,7 @@
 				(hide yes)
 			)
 		)
-		(property "APPLICATION" ""
+		(property "FT Rotation Offset" "-90"
 			(at 152.4 109.22 0)
 			(effects
 				(font

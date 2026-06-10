@@ -13548,33 +13548,6 @@
 				(hide yes)
 			)
 		)
-		(property "APPLICATION" ""
-			(at 193.04 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CASE" ""
-			(at 193.04 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONFIGURATION" ""
-			(at 193.04 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "CONNECTOR" ""
 			(at 193.04 139.7 0)
 			(effects
@@ -13882,6 +13855,33 @@
 			)
 		)
 		(property "VOLTAGE_RATING_DC" ""
+			(at 193.04 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C225721"
+			(at 193.04 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC-ALT" "C306045"
+			(at 193.04 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 193.04 139.7 0)
 			(effects
 				(font
@@ -14574,7 +14574,7 @@
 				(hide yes)
 			)
 		)
-		(property "APPLICATION" ""
+		(property "JLC" "C225721"
 			(at 88.9 60.96 0)
 			(effects
 				(font
@@ -14583,7 +14583,7 @@
 				(hide yes)
 			)
 		)
-		(property "CASE" ""
+		(property "JLC-ALT" "C306045"
 			(at 88.9 60.96 0)
 			(effects
 				(font
@@ -14592,7 +14592,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIGURATION" ""
+		(property "FT Rotation Offset" "90"
 			(at 88.9 60.96 0)
 			(effects
 				(font
@@ -15672,7 +15672,7 @@
 				(hide yes)
 			)
 		)
-		(property "APPLICATION" ""
+		(property "FT Rotation Offset" "90"
 			(at 24.13 269.24 0)
 			(effects
 				(font
@@ -16600,33 +16600,6 @@
 				(hide yes)
 			)
 		)
-		(property "APPLICATION" ""
-			(at 262.89 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CASE" ""
-			(at 262.89 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONFIGURATION" ""
-			(at 262.89 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "CONNECTOR" ""
 			(at 262.89 152.4 0)
 			(effects
@@ -16934,6 +16907,33 @@
 			)
 		)
 		(property "VOLTAGE_RATING_DC" ""
+			(at 262.89 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C225721"
+			(at 262.89 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC-ALT" "C306045"
+			(at 262.89 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 262.89 152.4 0)
 			(effects
 				(font
@@ -17625,33 +17625,6 @@
 				(hide yes)
 			)
 		)
-		(property "APPLICATION" ""
-			(at 264.16 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CASE" ""
-			(at 264.16 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONFIGURATION" ""
-			(at 264.16 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "CONNECTOR" ""
 			(at 264.16 91.44 0)
 			(effects
@@ -17959,6 +17932,33 @@
 			)
 		)
 		(property "VOLTAGE_RATING_DC" ""
+			(at 264.16 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C225721"
+			(at 264.16 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC-ALT" "C306045"
+			(at 264.16 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 264.16 91.44 0)
 			(effects
 				(font
@@ -19069,33 +19069,6 @@
 				(hide yes)
 			)
 		)
-		(property "APPLICATION" ""
-			(at 87.63 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CASE" ""
-			(at 87.63 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONFIGURATION" ""
-			(at 87.63 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "CONNECTOR" ""
 			(at 87.63 152.4 0)
 			(effects
@@ -19403,6 +19376,33 @@
 			)
 		)
 		(property "VOLTAGE_RATING_DC" ""
+			(at 87.63 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C225721"
+			(at 87.63 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC-ALT" "C306045"
+			(at 87.63 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 87.63 152.4 0)
 			(effects
 				(font
