@@ -9,4 +9,5 @@
   (lib (name "GPS")(type "KiCad")(uri "${KIPRJMOD}/components/xtech/footprints/GPS.pretty")(options "")(descr ""))
   (lib (name "xtech")(type "KiCad")(uri "${KIPRJMOD}/components/xtech/footprints/xtech.pretty")(options "")(descr ""))
   (lib (name "local_CHARGER")(type "KiCad")(uri "${KIPRJMOD}/components/extern/footprints/local_CHARGER.pretty")(options "")(descr ""))
+  (lib (name "nlbn")(type "KiCad")(uri "${KIPRJMOD}/components/nlbn/nlbn.pretty")(options "")(descr ""))
 )

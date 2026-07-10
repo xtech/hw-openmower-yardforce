@@ -32,5 +32,8 @@ fp-info-cache
 *.lck
 
 components/extern/tmp/
+components/nlbn/.checkpoint
 
 release/
+fabrication-toolkit-options.json
+production/
