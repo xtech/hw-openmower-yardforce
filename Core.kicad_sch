@@ -15617,7 +15617,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1eeda973-1980-4c1b-8b66-be6e87b0ec06")
 		(property "Reference" "J25"
