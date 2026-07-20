@@ -1072,6 +1072,18 @@
           "label": "LCSC Part",
           "name": "LCSC Part",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FT Rotation Offset",
+          "name": "FT Rotation Offset",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLC-ALT",
+          "name": "JLC-ALT",
+          "show": false
         }
       ],
       "filter_string": "",
